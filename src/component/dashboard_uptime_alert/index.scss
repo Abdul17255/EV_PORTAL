@@ -1,0 +1,83 @@
+@import "../../stylesheets/robotoFonts";
+
+.uptime-alert {
+}
+
+.uptime-alert-div {
+  // display: flex;
+  //  margin-left: 20px;
+  // margin-top: 20px;
+  // gap: 100px;
+}
+
+.uptime-alert-text {
+  letter-spacing: 0px;
+  color: #6e6e6e;
+  text-shadow: inset 0px 3px 6px #5d5d5d29;
+  text-transform: uppercase;
+  opacity: 1;
+  font-size: 12px;
+  font-family: $font-name-Roboto-Bold;
+  margin-left: 1px;
+  margin-top: -10px;
+}
+
+.uptime-alert-number {
+  text-align: left;
+  font-size: 15px;
+  letter-spacing: 0.3px;
+  color: #343844;
+  opacity: 1;
+  font-family: $font-name-Roboto-Bold;
+
+  margin-top: -1px;
+}
+
+.uptime-alert-wash {
+  display: -webkit-box;
+  padding-left: 38px;
+  padding-top: 10px;
+}
+.uptime-alert-wash-one {
+  display: block;
+  margin-left: 30px;
+}
+
+.uptime-alert-wash-img {
+  width: 20px;
+  height: 20px;
+  margin-left: -20px;
+}
+
+//    .uptime-alert-wash-img :hover{
+//     background-color: pink;
+//    }
+
+//    .uptime-alert-wash img:hover{
+//     background-color: pink;
+//    }
+
+.uptime-alert-button {
+  width: 20px;
+  height: 20px;
+  margin-left: 102px;
+}
+
+.uptime-alert-button-1 {
+  width: 20px;
+  height: 20px;
+  margin-left: 131px;
+}
+
+.uptime-alert-button-2 {
+  width: 20px;
+  height: 20px;
+  margin-left: 122px;
+}
+
+.uptime-alert-wash:hover {
+  //background-color: pink;
+  background-image: linear-gradient(to right, pink, white);
+  // border-radius: 5px;
+  //padding-bottom: 10px;
+}

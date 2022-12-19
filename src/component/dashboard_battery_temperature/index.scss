@@ -1,0 +1,32 @@
+@import "../../stylesheets/robotoFonts";
+
+.dashboard-battery-temp {
+  display: flex;
+  gap: 150px;
+  margin-left: 55px;
+  margin-top: 30px;
+}
+
+.battery-temp-content {
+  display: flex;
+}
+
+.battery-temp-content-number {
+  margin-left: 10px;
+  margin-top: 16px;
+  letter-spacing: 0px;
+  color: #052a5f;
+  opacity: 1;
+  font-size: 24px;
+  font-family: $font-name-Roboto-Bold;
+}
+
+.battery-temp-content-text-dashboard {
+  margin-top: -10px;
+  letter-spacing: 0px;
+  color: #052a5f;
+  opacity: 1;
+  font-size: 14px;
+  font-family: $font-name-Roboto-Medium;
+  margin-left: 0px;
+}

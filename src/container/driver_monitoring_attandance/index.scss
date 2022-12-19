@@ -1,0 +1,140 @@
+@import "../../stylesheets/robotoFonts";
+
+.driver-monitoring-text {
+  margin-top: 20px;
+  margin-left: 35px;
+
+  /* UI Properties */
+  text-align: left;
+  font-family: $font-name-Roboto-Bold;
+  font-size: 22px;
+  font-weight: 700;
+  font-variant: normal;
+  letter-spacing: 0px;
+  color: #073a81;
+  text-transform: capitalize;
+  opacity: 1;
+}
+
+.driver-monitoring_div {
+  margin-left: 0px;
+  display: flex;
+  padding: 2rem;
+  width: 50%;
+  margin-top: -10px;
+  justify-content: space-between;
+}
+.driver-monitoring_div_labels {
+  display: flex;
+}
+
+//   label{
+//     display: flex;
+//     width: 180px;
+//     //margin-right: 70px;
+//   }
+.driver-monitoring_div_labels_style {
+  display: flex;
+  font-family: $font-name-Roboto-Medium;
+  font-size: 15px;
+  margin-top: -5px;
+  margin-left: 10px;
+}
+
+.driver-monitoring_div_labels_style-1 {
+  display: flex;
+  font-family: $font-name-Roboto-Medium;
+  font-size: 15px;
+  margin-top: -5px;
+}
+.driver-monitoring_div_button-submit {
+  padding: 4px 5px;
+  background-color: #da3d48;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  color: #fff;
+  font-family: $font-name-Roboto-Bold;
+  cursor: pointer;
+  width: 120px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.switch-field-one {
+  font-family: $font-name-Roboto-Regular;
+  //padding: 40px;
+  margin-left: 43%;
+  margin-top: 1px;
+  display: flex;
+  // padding-top: 36px;
+  //padding-right: 55px;
+  //backgroundpadding-left: 75%;
+}
+.switch-img {
+  margin-left: -10px;
+}
+.switch-img-1 {
+  margin-right: 4px;
+}
+.switch-title {
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.switch-field-one input {
+  position: absolute !important;
+  clip: rect(0, 0, 0, 0);
+  //height: 1px;
+  //width: 1px;
+  border: 0;
+  overflow: hidden;
+}
+
+.switch-field-one label {
+  display: inline-block;
+  width: 17vh;
+  height: 40px;
+  background-color: white;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 80%;
+  font-weight: normal;
+  text-align: center;
+  text-shadow: none;
+  padding: 10px 14px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1);
+  transition: all 0.1s ease-in-out;
+}
+
+.switch-field-one label:hover {
+  cursor: pointer;
+}
+
+.switch-field-one input:checked + label {
+  background-color: #18397d;
+  color: #fff;
+  box-shadow: none;
+}
+
+.switch-field-one label:first-of-type {
+  border-radius: 4px 0 0 4px;
+}
+
+.switch-field-one label:last-of-type {
+  border-radius: 0 4px 4px 0;
+}
+
+.calander-view {
+  margin-top: -30px;
+}
+
+.driver-monitoring_div_button-submits {
+  margin-left: 25px;
+  margin-top: 10px;
+}
+
+.driver-monitoring_div_button-submit-image {
+  margin-top: -50px;
+  margin-left: 50px;
+}

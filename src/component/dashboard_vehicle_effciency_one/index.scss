@@ -1,0 +1,35 @@
+
+@import "../../stylesheets/robotoFonts";
+.vehicle-effciency-content{
+    display: flex;
+    gap: 30px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.vehicle-effciency-content-number{
+    margin-top: 1px;
+    text-align: left;
+    font-size: 20px;
+  font-family: $font-name-Roboto-Bold;
+    letter-spacing: 0px;
+    color: #353639;
+    opacity: 1;
+}
+
+.vehicle-effciency-content-texts{
+    margin-top: -14px;
+    margin-left: 106px;
+    text-align: left;
+    font-size: 12px;
+    font-family: $font-name-Roboto-Bold;
+    letter-spacing: 0.24px;
+    color: #6E6E6E;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.bus-img{
+    width: 37px;
+height: 43px;
+}

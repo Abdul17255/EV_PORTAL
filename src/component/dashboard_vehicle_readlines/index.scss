@@ -1,0 +1,332 @@
+// @import "../../stylesheets/robotoFonts";
+
+// .vehicle-readliness-div{
+//     display: flex;
+//   margin-left: 60px;
+//   margin-top: 20px;
+//   gap: 60px;
+
+// }
+// .readliness-img-1{
+//     width:50px;
+//     margin-left: -50px;
+//     height: 40px;
+//     margin-top: 10px;
+// }
+// .readliness-img-2{
+//     width:50px;
+//     height: 40px;
+//     margin-left: -40px;
+//     margin-top: 10px;
+// }
+// .readliness-img-3{
+//     width:40px;
+//     height: 40px;
+//     margin-left: -40px;
+//     margin-top: 10px;
+// }
+// .readliness-img-4{
+//     width:35px;
+//     height: 43px;
+//     margin-left: -40px;
+//     margin-top: 10px;
+// }
+// .readliness-img-5{
+//     width:40px;
+//     height: 40px;
+//     margin-left: -40px;
+//     margin-top: 16px;
+// }
+
+// .vehicle-readliness-text{
+//     text-align: left;
+// //font: normal normal medium 14px/16px Roboto;
+// font-size:12px ;
+// letter-spacing: 0.24px;
+// color: #19397C;
+// text-transform: uppercase;
+// opacity: 1;
+// font-family: $font-name-Roboto-Medium;
+//  margin-left: -10px;
+// margin-top: -10px;
+// }
+
+// .vehicle-readliness-number{
+//     text-align: left;
+// font-size:15px;
+// font-family: $font-name-Roboto-Medium;
+// letter-spacing: 0.3px;
+// color: #353844;
+// opacity: 1;
+// margin-top: 10px;
+// }
+
+// .vehicle-readliness-wash{
+//     margin-left: -20px;
+//     margin-top: 10px;
+
+//     .vehicle-readliness-text-1{
+//         text-align: left;
+//     //font: normal normal medium 14px/16px Roboto;
+//     font-size:12px ;
+//     letter-spacing: 0.24px;
+// color: #19397C;
+// text-transform: uppercase;
+// opacity: 1;
+// font-family: $font-name-Roboto-Bold;
+// margin-top: -10px;
+
+//     }
+
+// }
+
+// .vehicle-readliness-charge{
+//     margin-left: -30px;
+//     margin-top: 10px;
+
+//     .vehicle-readliness-text-2{
+//         text-align: left;
+//     //font: normal normal medium 14px/16px Roboto;
+//     font-size:12px ;
+//     letter-spacing: 0.24px;
+// color: #73b449;
+// text-transform: uppercase;
+// opacity: 1;
+// font-family: $font-name-Roboto-Bold;
+// margin-top: -10px;
+
+//     }
+// }
+
+// .vehicle-readliness-breakdown{
+//     margin-left: -30px;
+//     margin-top: 10px;
+
+//     .vehicle-readliness-text-3{
+//         text-align: left;
+//     //font: normal normal medium 14px/16px Roboto;
+//     font-size:12px ;
+//     letter-spacing: 0.24px;
+// color: orange;
+// text-transform: uppercase;
+// opacity: 1;
+// font-family: $font-name-Roboto-Bold;
+// margin-top: -10px;
+
+//     }
+// }
+
+// .vehicle-readliness-maintain{
+
+//     margin-left: -30px;
+//     margin-top: 10px;
+
+//     .vehicle-readliness-text-4{
+//         text-align: left;
+//     //font: normal normal medium 14px/16px Roboto;
+//     font-size:12px ;
+//     letter-spacing: 0.24px;
+// color: red;
+// text-transform: uppercase;
+// opacity: 1;
+// font-family: $font-name-Roboto-Bold;
+// margin-top: -10px;
+
+//     }
+
+// }
+
+// .vehicle-readliness-trip{
+//     margin-left: -30px;
+//     margin-top: 10px;
+
+//     .vehicle-readliness-text-5{
+//         text-align: left;
+//     //font: normal normal medium 14px/16px Roboto;
+//     font-size:12px ;
+//     letter-spacing: 0.24px;
+// color: #4B85F7;
+// text-transform: uppercase;
+// opacity: 1;
+// font-family: $font-name-Roboto-Bold;
+// margin-top: -10px;
+
+//     }
+// }
+
+@import "../../stylesheets/robotoFonts";
+
+.readliness-img-1 {
+  // width: 50px;
+  //float: left;
+  //margin-left: -50px;
+  height: 48px;
+  margin-top: 30px;
+}
+.readliness-img-2 {
+  // width: 50px;
+  height: 40px;
+  // margin-left: -40px;
+  margin-top: 40px;
+}
+.readliness-img-3 {
+  // width: 40px;
+  height: 40px;
+  // margin-left: -40px;
+  margin-top: 40px;
+}
+.readliness-img-4 {
+  width: 37px;
+  height: 60px;
+  // margin-left: -40px;
+  margin-top: 20px;
+}
+.readliness-img-5 {
+  width: 40px;
+  height: 48px;
+  //  margin-left: -40px;
+  margin-top: 42px;
+}
+
+.vehicle-readliness-number {
+  //float: right;
+  text-align: left;
+  font-size: 15px;
+  font-family: $font-name-Roboto-Medium;
+  letter-spacing: 0.3px;
+  color: #353844;
+  opacity: 1;
+  //margin-top: 30px;
+  //margin-left:-20px ;
+}
+
+.vehicle-readliness-wash {
+  margin-left: 20px;
+  padding-top: 35px;
+
+  .vehicle-readliness-text-1 {
+    //float: right;
+    text-align: left;
+    //font: normal normal medium 14px/16px Roboto;
+    font-size: 12px;
+    letter-spacing: 0.24px;
+    color: #19397c;
+    text-transform: uppercase;
+    opacity: 1;
+    font-family: $font-name-Roboto-Bold;
+    //margin-top: -10px;
+  }
+}
+
+.vehicle-readliness-charge {
+  margin-left: 20px;
+  padding-top: 37px;
+
+  .vehicle-readliness-text-2 {
+    text-align: left;
+    //font: normal normal medium 14px/16px Roboto;
+    font-size: 12px;
+    letter-spacing: 0.24px;
+    color: #73b449;
+    text-transform: uppercase;
+    opacity: 1;
+    font-family: $font-name-Roboto-Bold;
+    //margin-top: -10px;
+  }
+}
+
+.vehicle-readliness-breakdown {
+  margin-left: 20px;
+  padding-top: 39px;
+
+  .vehicle-readliness-text-3 {
+    text-align: left;
+    //font: normal normal medium 14px/16px Roboto;
+    font-size: 12px;
+    letter-spacing: 0.24px;
+    color: orange;
+    text-transform: uppercase;
+    opacity: 1;
+    font-family: $font-name-Roboto-Bold;
+    // /margin-top: -10px;
+  }
+}
+
+.vehicle-readliness-maintain {
+  margin-left: 20px;
+  padding-top: 40px;
+
+  .vehicle-readliness-text-4 {
+    text-align: left;
+    //font: normal normal medium 14px/16px Roboto;
+    font-size: 12px;
+    letter-spacing: 0.24px;
+    color: red;
+    text-transform: uppercase;
+    opacity: 1;
+    font-family: $font-name-Roboto-Bold;
+    //margin-top: -10px;
+  }
+}
+
+.vehicle-readliness-trip {
+  margin-left: 20px;
+  padding-top: 30px;
+
+  .vehicle-readliness-text-5 {
+    text-align: left;
+    //font: normal normal medium 14px/16px Roboto;
+    font-size: 12px;
+    letter-spacing: 0.24px;
+    color: #4b85f7;
+    text-transform: uppercase;
+    opacity: 1;
+    font-family: $font-name-Roboto-Bold;
+    //margin-top: -10px;
+  }
+}
+
+.border-right {
+  border-right: 1px solid #dbdee8;
+}
+
+// .col-sm:hover{
+//     background-color: green;
+// }
+
+.charge-hover:hover {
+  background-color: pink;
+}
+
+
+.readliness-hover:hover{
+  background-image: linear-gradient(to bottom, rgb(228, 228, 248), white);
+//padding-right: 80px;
+//padding-right: 20px;
+}
+
+
+.readliness-hover-1:hover{
+  background-image: linear-gradient(to bottom, rgb(217, 246, 209), white);
+}
+
+
+.readliness-hover-2:hover{
+  background-image: linear-gradient(to bottom, rgb(245, 227, 202), white);
+}
+
+
+.readliness-hover-3:hover{
+  background-image: linear-gradient(to bottom, rgb(243, 233, 233), white);
+
+}
+
+
+.readliness-hover-4:hover{
+  background-image: linear-gradient(to bottom, rgb(237, 237, 239), white);
+
+}
+.readliness-hover{
+  display: -webkit-box;
+  padding-left: -18px;
+}

@@ -1,0 +1,165 @@
+// .map-header {
+//     // color: #fff;
+//     // text-align: center;
+//     // font-size: x-large;
+//     // padding: 12px;
+//     background: blue;
+//     // height: 50px;
+//     // box-sizing: border-box;
+//     padding: 10px;
+//     padding-left: 20px;
+//     color: #fff;
+//     flex: 1;
+//     text-align: center;
+//     font-size: 26px;
+//     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+//       "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+//       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+//     img {
+//       float: left;
+//       height: auto;
+//       max-width: 150px;
+//     }
+//     .e-base {
+//       height: 15px;
+//       margin-top: 5px;
+//     }
+//     .seprater {
+//       height: 25px;
+//       width: 1px;
+//       background: #1f201f;
+//       float: left;
+//       margin: 0 20px;
+//     }
+//   }
+
+//   #markerLayer img {
+//     width: auto !important;
+//     height: 40px !important;
+//     left: 14px !important;
+//     top: 15px !important;
+//   }
+
+//   .map-dashboard__container {
+//     position: absolute;
+//     top: 50px;
+//     left: 0;
+//     bottom: 0;
+//     right: 0;
+//     max-height: calc(100vh - 100px);
+//     min-width: 890px;
+//   }
+//   .map{
+//     margin-left: 40px;
+//   }
+.map-header {
+  // color: #fff;
+  // text-align: center;
+  // font-size: x-large;
+  // padding: 12px;
+  background: blue;
+  // height: 50px;
+  // box-sizing: border-box;
+  padding: 10px;
+  padding-left: 20px;
+  color: #fff;
+  flex: 1;
+  text-align: center;
+  font-size: 26px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  img {
+    float: left;
+    height: auto;
+    max-width: 150px;
+  }
+  .e-base {
+    height: 15px;
+    margin-top: 5px;
+  }
+  .seprater {
+    height: 25px;
+    width: 1px;
+    background: #1f201f;
+    float: left;
+    margin: 0 20px;
+  }
+}
+
+#markerLayer img {
+  width: auto !important;
+  height: 40px !important;
+  left: 14px !important;
+  top: 15px !important;
+}
+
+.map-dashboard__container {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  max-height: calc(100vh - 100px);
+  min-width: 890px;
+}
+.map {
+  margin-left: 40px;
+}
+
+#iw-container{
+  //margin-left: 10px;
+//position: absolute;
+//float: left;
+  //float: left;
+  
+  margin: 0px auto;
+  padding-bottom: 22px;
+ //margin: -100px 0 0 -150px;
+ width: 385px;
+height: 334px;
+
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 0px 26px #00000029;
+border-radius: 5px;
+opacity: 1;
+  overflow: hidden;
+
+.iw-image{
+  width:20px;
+  height:30px;
+  //  background-image: url(../../assets/images/noun-bus-1260937/bus.png);
+  // background-repeat: no-repeat;
+ // background-size: auto;
+}
+#iw-title{
+  // background-image: url(../../assets/images/noun-bus-1260937/bus.png);
+  // background-repeat: no-repeat;
+  // background-size: auto;
+  //margin-left: 10px;
+  text-align: left;
+font: normal normal bold 14px Roboto;
+letter-spacing: 0px;
+
+color: #434343;;
+opacity: 1;
+}
+#iw-titles{
+  margin-left: 120px;
+  text-align: left;
+font: normal normal bold 16px/19px Roboto;
+letter-spacing: 0px;
+color: #18397D;
+opacity: 1;
+}
+#iw-container-content{
+  margin-top: 40px;
+  text-align: left;
+  font: normal normal bold 14px Roboto;
+  letter-spacing: 0px;
+  color: #434343;
+  opacity: 1;
+  //gap: .7rem;
+}
+}
+

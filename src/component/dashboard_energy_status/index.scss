@@ -1,0 +1,406 @@
+@import "../../stylesheets/robotoFonts";
+.charger-status {
+}
+
+.charger-status-image {
+  margin-top: 30px;
+  margin-left: 30px;
+  display: flex;
+}
+
+.charger-status-div {
+  display: flex;
+  margin-left: 70px;
+  margin-top: 20px;
+  gap: 100px;
+
+  .charger-status-available {
+    margin-top: -5px;
+
+    .number-pulse {
+      display: flex;
+      .pulsatingDotone {
+        margin-top: 20px;
+        margin-left: 15px;
+        animation: pulseDot 1.25s cubic-bezier(0.455, 0.03, 0.515, 0.955) -0.4s infinite;
+        background-color: var(--pulsating-dot, #c0e594);
+        border-radius: 50%;
+        box-sizing: border-box;
+        height: 10px;
+        width: 10px;
+      }
+
+      .pulsatingDotone:before {
+        animation: pulseRing 1.25s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+        background-color: var(--pulsating-dot, #c0e594);
+        border-radius: 45px;
+        content: "";
+        display: block;
+        height: 300%;
+        left: -100%;
+        position: relative;
+        top: -100%;
+        width: 300%;
+      }
+
+      @keyframes pulseRing {
+        0% {
+          transform: scale(0.5);
+        }
+        80%,
+        100% {
+          opacity: 0;
+        }
+      }
+
+      @keyframes pulseDot {
+        0%,
+        100% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.1);
+        }
+      }
+      .charger-available-number {
+        color: #7aae4f;
+        margin-left: 10px;
+        margin-top: 10px;
+        text-align: left;
+        font-size: 20px;
+        font-family: $font-name-Roboto-Medium;
+        letter-spacing: 0px;
+        text-transform: uppercase;
+        opacity: 1;
+      }
+    }
+  }
+
+  .charger-status-occupied {
+    margin-top: -5px;
+    .number-pulse {
+      display: flex;
+      .pulsatingDottwo {
+        margin-top: 20px;
+        margin-left: 5px;
+        animation: pulseDot 1.25s cubic-bezier(0.455, 0.03, 0.515, 0.955) -0.4s infinite;
+        background-color: var(--pulsating-dot, #f5c06b);
+        border-radius: 50%;
+        box-sizing: border-box;
+        height: 10px;
+        width: 10px;
+      }
+
+      .pulsatingDottwo:before {
+        animation: pulseRing 1.25s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+        background-color: var(--pulsating-dot, #f5c06b);
+        border-radius: 45px;
+        content: "";
+        display: block;
+        height: 300%;
+        left: -100%;
+        position: relative;
+        top: -100%;
+        width: 300%;
+      }
+
+      @keyframes pulseRing {
+        0% {
+          transform: scale(0.5);
+        }
+        80%,
+        100% {
+          opacity: 0;
+        }
+      }
+
+      @keyframes pulseDot {
+        0%,
+        100% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.1);
+        }
+      }
+      .charger-occupied-number {
+        margin-top: 10px;
+        margin-left: 10px;
+        text-align: left;
+        font-size: 20px;
+        font-family: $font-name-Roboto-Medium;
+        letter-spacing: 0px;
+        color: #f5c06b;
+        text-transform: uppercase;
+        opacity: 1;
+      }
+    }
+  }
+
+  .charger-status-breakdown {
+    margin-top: -5px;
+    .number-pulse {
+      display: flex;
+      .pulsatingDotthree {
+        margin-top: 20px;
+        margin-left: -5px;
+        animation: pulseDot 1.25s cubic-bezier(0.455, 0.03, 0.515, 0.955) -0.4s infinite;
+        background-color: var(--pulsating-dot, #4b85f7);
+        border-radius: 50%;
+        box-sizing: border-box;
+        height: 10px;
+        width: 10px;
+      }
+
+      .pulsatingDotthree:before {
+        animation: pulseRing 1.25s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+        background-color: var(--pulsating-dot, #4b85f7);
+        border-radius: 45px;
+        content: "";
+        display: block;
+        height: 300%;
+        left: -100%;
+        position: relative;
+        top: -100%;
+        width: 300%;
+      }
+
+      @keyframes pulseRing {
+        0% {
+          transform: scale(0.5);
+        }
+        80%,
+        100% {
+          opacity: 0;
+        }
+      }
+
+      @keyframes pulseDot {
+        0%,
+        100% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.1);
+        }
+      }
+      .charger-breakdown-number {
+        margin-top: 10px;
+        margin-left: 10px;
+        text-align: left;
+        font-size: 20px;
+        font-family: $font-name-Roboto-Medium;
+        letter-spacing: 0px;
+        color: #4b85f7;
+        text-transform: uppercase;
+        opacity: 1;
+      }
+    }
+  }
+}
+
+.charger-status-div-two {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 69px;
+  gap: 108px;
+  .charger-status-efficiency {
+    margin-top: -20px;
+
+    .number-pulse {
+      display: flex;
+      margin-left: 30px;
+      .pulsatingDotfour {
+        margin-top: 20px;
+        margin-left: -5px;
+        animation: pulseDot 1.25s cubic-bezier(0.455, 0.03, 0.515, 0.955) -0.4s infinite;
+        background-color: var(--pulsating-dot, #ec9b98);
+        border-radius: 50%;
+        box-sizing: border-box;
+        height: 10px;
+        width: 10px;
+      }
+
+      .pulsatingDotfour:before {
+        animation: pulseRing 1.25s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+        background-color: var(--pulsating-dot, #ec9b98);
+        border-radius: 45px;
+        content: "";
+        display: block;
+        height: 300%;
+        left: -100%;
+        position: relative;
+        top: -100%;
+        width: 300%;
+      }
+
+      @keyframes pulseRing {
+        0% {
+          transform: scale(0.5);
+        }
+        80%,
+        100% {
+          opacity: 0;
+        }
+      }
+
+      @keyframes pulseDot {
+        0%,
+        100% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.1);
+        }
+      }
+      .charger-efficiency-number {
+        margin-left: 10px;
+        margin-top: 10px;
+        text-align: left;
+        font-size: 20px;
+        font-family: $font-name-Roboto-Medium;
+        letter-spacing: 0px;
+        color: #ec9b98;
+
+        text-transform: uppercase;
+        opacity: 1;
+      }
+    }
+  }
+
+  .charger-status-opportunity {
+    margin-top: -20px;
+
+    .number-pulse {
+      display: flex;
+      .pulsatingDotfour {
+        margin-top: 20px;
+        margin-left: -5px;
+        animation: pulseDot 1.25s cubic-bezier(0.455, 0.03, 0.515, 0.955) -0.4s infinite;
+        background-color: var(--pulsating-dot, #ec9b98);
+        border-radius: 50%;
+        box-sizing: border-box;
+        height: 10px;
+        width: 10px;
+      }
+
+      .pulsatingDotfour:before {
+        animation: pulseRing 1.25s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+        background-color: var(--pulsating-dot, #ec9b98);
+        border-radius: 45px;
+        content: "";
+        display: block;
+        height: 300%;
+        left: -100%;
+        position: relative;
+        top: -100%;
+        width: 300%;
+      }
+
+      @keyframes pulseRing {
+        0% {
+          transform: scale(0.5);
+        }
+        80%,
+        100% {
+          opacity: 0;
+        }
+      }
+
+      @keyframes pulseDot {
+        0%,
+        100% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.1);
+        }
+      }
+      .charger-opportunity-number {
+        margin-top: 10px;
+        margin-left: 10px;
+        text-align: left;
+        font-size: 20px;
+        font-family: $font-name-Roboto-Medium;
+        letter-spacing: 0px;
+        color: #ec9b98;
+        text-transform: uppercase;
+        opacity: 1;
+      }
+    }
+  }
+
+  .energy-status-ac-to-dc {
+    margin-top: -25px;
+
+    .number-pulse {
+      display: flex;
+      margin-left: 23px;
+      .pulsatingDotfour {
+        margin-top: 20px;
+        margin-left: -5px;
+        animation: pulseDot 1.25s cubic-bezier(0.455, 0.03, 0.515, 0.955) -0.4s infinite;
+        background-color: var(--pulsating-dot, #ec9b98);
+        border-radius: 50%;
+        box-sizing: border-box;
+        height: 10px;
+        width: 10px;
+      }
+
+      .pulsatingDotfour:before {
+        animation: pulseRing 1.25s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+        background-color: var(--pulsating-dot, #ec9b98);
+        border-radius: 45px;
+        content: "";
+        display: block;
+        height: 300%;
+        left: -100%;
+        position: relative;
+        top: -100%;
+        width: 300%;
+      }
+
+      @keyframes pulseRing {
+        0% {
+          transform: scale(0.5);
+        }
+        80%,
+        100% {
+          opacity: 0;
+        }
+      }
+
+      @keyframes pulseDot {
+        0%,
+        100% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.1);
+        }
+      }
+      .charger-opportunity-number {
+        margin-top: 10px;
+        margin-left: 10px;
+        text-align: left;
+        font-size: 20px;
+        font-family: $font-name-Roboto-Medium;
+        letter-spacing: 0px;
+        color: #ec9b98;
+        text-transform: uppercase;
+        opacity: 1;
+      }
+    }
+  }
+}
+.textss {
+  text-align: left;
+  font-size: 12px;
+  font-family: $font-name-Roboto-Medium;
+  letter-spacing: 0px;
+  color: #6e6e6e;
+  text-transform: uppercase;
+  opacity: 1;
+  // margin-top: -10px;
+  margin-top: -5px;
+}

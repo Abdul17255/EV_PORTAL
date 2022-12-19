@@ -1,0 +1,152 @@
+@import "../../stylesheets/robotoFonts";
+
+.vehicle_summary_report-head {
+  margin-top: 20px;
+  margin-left: 35px;
+
+  /* UI Properties */
+  text-align: left;
+  font-family: $font-name-Roboto-Bold;
+  font-size: 22px;
+  font-weight: 700;
+  font-variant: normal;
+  letter-spacing: 0px;
+  color: #073a81;
+  text-transform: capitalize;
+  opacity: 1;
+}
+.ReactTable .rt-thead .rt-resizable-header {
+  background-color: #eaedf1;
+  color: #000 !important;
+}
+.rt-td {
+  text-align: center;
+  font-size: 13px;
+  font-family: $font-name-Roboto-Regular;
+}
+.rt-resizable-header-content {
+  font-size: 14px;
+  font-family: $font-name-Roboto-Medium;
+}
+
+.ReactTable .-pagination .-btn {
+  font-size: 1em;
+}
+.ReactTable .rt-tbody {
+  overflow-x: hidden;
+}
+
+.vehicle_summary_report_div {
+  // margin-left: 60%;
+  margin-top: -25px;
+  display: flex;
+  padding: 2rem;
+  // width: 50%;
+  //justify-content: space-between;
+}
+.vehicle_summary_report_div_labels {
+  display: flex;
+}
+
+// label{
+//   display: flex;
+//   width: 180px;
+//   //margin-right: 70px;
+// }
+.vehicle_summary_report_div_labels_style {
+  display: flex;
+  font-family: $font-name-Roboto-Medium;
+  font-size: 15px;
+  margin-top: -5px;
+  margin-left: 10px;
+}
+
+// .vehicle_summary_report_div_labels_style_1{
+//   display: flex;
+//   font-family: $font-name-Roboto-Medium;
+//   font-size: 15px;
+//   margin-top: -5px;
+// }
+// .vehicle_summary_report_div_button-submit {
+//   padding: 4px 5px;
+//   background-color: #0089d3;
+//   border: none;
+//   outline: none;
+//   border-radius: 3px;
+//   color: #fff;
+//   font-family: $font-name-Roboto-Bold;
+//   cursor: pointer;
+//   width: 120px;
+//   font-weight: 500;
+//   letter-spacing: 1px;
+//   margin-top: 1px;
+// }
+
+.vehicle_summary_report_div_button-submit {
+  padding: 5px 5px;
+  background-color: #ed2541;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  border-radius: 3px;
+  color: #fff;
+  font-family: $font-name-Roboto-Bold;
+  cursor: pointer;
+  width: 120px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  // margin-top: 1px;
+  margin-left: -125px;
+  float: right;
+}
+.vehicle_summary_report_div_button-submit-1 {
+  padding: 5px 5px;
+  background-color: #ed2541;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  border-radius: 3px;
+  color: #fff;
+  font-family: $font-name-Roboto-Bold;
+  cursor: pointer;
+  width: 120px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-left: 20px;
+  // margin-top: 1px;
+  //margin-left: -55px;
+  //margin-right: 10px;
+  float: right;
+}
+.vehicle_summary_report_search {
+  margin-left: 180px;
+  margin-top: 1px;
+  // margin-bottom: 10px;
+  font-family: $font-name-Roboto-Regular;
+}
+.vehicle_summary_report_search-input {
+  width: 400px;
+  // margin-top: 6px;
+  height: 30px;
+}
+
+.vehicle_summary_report-download {
+  margin-top: 5px;
+  margin-left: 20px;
+  font-size: 14px;
+  letter-spacing: 0px;
+  color: #8997b5;
+  opacity: 1;
+  cursor: pointer;
+  font-family: $font-name-Roboto-Medium;
+}
+
+.vehicle_summary_report-download-img {
+  margin-left: 7px;
+  
+  cursor: pointer;
+  margin-top: -1px;
+}
+.vehicle_summary_report_table{
+  margin-top: -20px;
+}

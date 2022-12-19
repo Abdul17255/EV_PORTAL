@@ -1,0 +1,15 @@
+@import "../../stylesheets/robotoFonts";
+
+.bar-text {
+  margin-left: 14px;
+  margin-top: 5px;
+  font-size: 14px;
+  font-family: $font-name-Roboto-Medium;
+  letter-spacing: 0px;
+  color: #052a5f;
+  opacity: 1;
+}
+
+.circle-text {
+  font-family: $font-name-Roboto-Bold;
+}

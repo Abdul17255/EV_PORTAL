@@ -1,0 +1,293 @@
+@import "../../stylesheets/robotoFonts";
+
+@import "../../stylesheets/_mixins.scss";
+@import "../../stylesheets/_variables.scss";
+
+.login {
+  display: flex;
+  height: calc(100vh - 10rem);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: $font-name-Roboto-Bold;
+
+  &Wrapper {
+    width: 450px;
+    // background-color: #fff;
+    //padding: 2rem;
+    margin-left: 66%;
+    margin-top: -601px;
+    box-shadow: 0 14px 80px rgb(34 35 58 / 20%);
+    padding: 40px 55px 45px;
+    background: #fff;
+    font-family: $primaryFont;
+    border-radius: 6px !important;
+    @include ShadowPrimary();
+
+    &InputElemnt {
+      display: flex;
+      flex-direction: column;
+
+      &__name,
+      &__password {
+        display: flex;
+        flex-direction: column;
+        label {
+          font-size: 1.4rem;
+          font-family: "calibri-regular";
+        }
+      }
+      &__name {
+        margin-bottom: 1rem;
+      }
+
+      &__name__field {
+        margin-top: 1rem;
+        padding: 0.5rem;
+      }
+
+      &__password__field {
+        margin-top: 1rem;
+        padding: 0.5rem;
+      }
+    }
+    &__signin-button {
+      font-family: "calibri-bold";
+      font-size: 1.5rem;
+      letter-spacing: 0.1px;
+      color: #ffffff;
+      border-radius: 0.71rem;
+      background-color: rgb(237, 37, 65);
+      border: none;
+      display: block;
+      margin: auto;
+      height: 3rem;
+      line-height: 2.1;
+      padding: 0 1.6rem;
+    }
+
+    &__options {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      margin: 1.6rem 0;
+
+      &__remember {
+        display: block;
+        position: relative;
+        cursor: pointer;
+        font-family: "calibri-regular";
+        font-size: 1.4rem;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        padding-left: 2.2rem;
+        input {
+          position: absolute;
+          opacity: 0;
+          cursor: pointer;
+          height: 0;
+          width: 0;
+          font-family: $font-name-Roboto-Bold;
+        }
+        .checkmark {
+          position: absolute;
+          top: 0;
+          left: 0;
+          height: 1.6rem;
+          width: 1.6rem;
+          background-color: #eee;
+          border-radius: 2px;
+        }
+        input:checked ~ .checkmark {
+          background-color: rgb(237, 37, 65);
+        }
+        .checkmark:after {
+          content: "";
+          position: absolute;
+          display: none;
+        }
+        input:checked ~ .checkmark:after {
+          display: block;
+        }
+        .checkmark:after {
+          left: 5px;
+          top: 1px;
+          width: 2px;
+          height: 7px;
+          border: solid white;
+          border-width: 0 3px 3px 0;
+          -webkit-transform: rotate(45deg);
+          -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
+        }
+      }
+      &__forgot-password {
+        // padding-left: 2rem;
+        font-family: "calibri-regular";
+        font-size: 1.4rem;
+        letter-spacing: 0.1px;
+        color: rgb(237, 37, 65);
+
+        &__content {
+          display: inline-block;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+.input,
+label {
+  display: block;
+  padding: 10px 0px 10px 0px;
+  font-family: $font-name-Roboto-Medium;
+}
+
+// .login-wrapper {
+//   width: 40rem;
+//   background-color: white;
+//   box-shadow: -10px 10px 20px 0;
+//   border-radius: 1rem;
+//   padding: 2rem;
+//   margin-left: 56%;
+//   background-image: url(../../images/AL-BG1.png);
+// }
+
+.bg {
+  background-image: url("../../assets/homepage-sliderimg1.jpg");
+  background-color: #eeefea;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  // margin-top: 150px;
+  z-index: -1;
+  height: 538px;
+  //margin-left: 150px;
+  padding-top: 45.3rem;
+}
+
+.topheight {
+  padding-top: 0px;
+
+  @include ShadowPrimary();
+}
+
+.auth-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+}
+
+.auth-inner {
+  width: 450px;
+  margin-left: 60%;
+  background: #ffffff;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  padding: 40px 55px 45px 55px;
+  border-radius: 15px;
+  transition: all 0.3s;
+}
+
+.auth-inner-text {
+  width: 800px;
+  margin: auto;
+  background: #ffffff;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  padding: 40px 55px 45px 55px;
+  border-radius: 15px;
+  transition: all 0.3s;
+}
+
+.auth-wrapper .form-control:focus {
+  border-color: rgb(237, 37, 65);
+  box-shadow: none;
+}
+
+.auth-wrapper h3 {
+  text-align: center;
+  margin: 0;
+  line-height: 1;
+  padding-bottom: 20px;
+}
+
+.custom-control-label {
+  font-weight: 400;
+}
+
+.forgot-password,
+.forgot-password a {
+  text-align: right;
+  font-size: 13px;
+  padding-top: 10px;
+  color: #7f7d7d;
+  margin: 0;
+  font-family: $font-name-Roboto-Bold;
+}
+
+.forgot-password a {
+  color: #167bff;
+}
+
+.textColor {
+  color: black;
+  padding: 5%;
+}
+
+.form_header {
+  text-align: center;
+  font-size: 30px !important;
+  margin-left: 10vh;
+}
+
+.bold_font {
+  font-size: 16px;
+  font-family: $font-name-Roboto-Medium;
+}
+
+.input_label_key {
+  // margin-top: 1rem;
+  border-color: #f1f1f1;
+  font-family: $font-name-Roboto-Regular;
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 5px;
+  height: 40px;
+}
+
+.submit_button_style {
+  background-color: rgb(246, 146, 160);
+
+  padding: 5px 24px;
+  border-radius: 5px;
+}
+
+.button1 {
+  background-color: rgb(246, 146, 160);
+  color: white;
+  width: 100%;
+  border: 2px solid rgb(246, 146, 160);
+  padding: 5px 24px;
+  border-radius: 5px;
+  font-family: $font-name-Roboto-Bold;
+}
+
+.button1:hover {
+  background-color: rgb(237, 37, 65);
+  color: white;
+}
+
+.WrongCredentials {
+  font-size: 12px;
+  padding-top: 10px;
+  color: red;
+  font-family: $font-name-Roboto-Regular;
+}
+
+.PasswordEye {
+  margin-left: -25px;
+  cursor: pointer;
+}

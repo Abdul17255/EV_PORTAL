@@ -1,0 +1,159 @@
+@import "../../stylesheets/robotoFonts";
+
+.opportynity-chargers-content {
+  display: flex;
+  margin-left: 200px;
+  margin-top: 15px;
+}
+
+
+.opportynity-chargers:hover{
+ // background-color: #DBDEE8;
+  background: url("../../assets/images/hover/Icon\ metro-power.png")  #e9e9e9 no-repeat center;
+}
+.opportynity-chargers-text {
+  text-align: left;
+  font-size: 14px;
+  font-family: $font-name-Roboto-Bold;
+  letter-spacing: 0px;
+  color: #19387c;
+  text-transform: uppercase;
+  opacity: 1;
+  margin-top: -10px;
+  margin-left: 100px;
+}
+.oppotunity-png {
+  margin-top: 10px;
+  margin-left: 350px;
+  width: 7.3%;
+}
+
+.opportynity-charger-status-text {
+  text-align: left;
+  font-size: 14px;
+  font-family: $font-name-Roboto-Bold;
+  margin-left: 20px;
+  margin-top: 20px;
+  letter-spacing: 0px;
+  color: #19387c;
+  opacity: 1;
+}
+
+// .opportynity-charger-div {
+//   display: flex;
+//   margin-left: 70px;
+//   margin-top: 10px;
+//   gap: 80px;
+//   height: 200px;
+// }
+
+.opportynity-chargerss-text {
+  text-align: left;
+  //font: normal normal medium 14px/16px Roboto;
+  //letter-spacing: 1.4px;
+  letter-spacing: 0px;
+  color: #353844;
+  text-transform: uppercase;
+  opacity: 1;
+  font-size: 12px;
+  font-family: $font-name-Roboto-Bold;
+  margin-left: 15px;
+  // margin-top: 10px;
+  margin-top: -5px;
+}
+
+.opportynity-charger-number-1 {
+  text-align: left;
+  font-size: 24px;
+  font-weight: $font-name-Roboto-Medium;
+  letter-spacing: 0px;
+  color: #7aae4f;
+  text-transform: uppercase;
+  opacity: 1;
+  margin-top: 10px;
+  margin-left: 55px;
+}
+
+.opportynity-charger-number-2 {
+  text-align: left;
+  font-size: 24px;
+  font-weight: $font-name-Roboto-Medium;
+  letter-spacing: 0px;
+  color: #f5c06b;
+  text-transform: uppercase;
+  opacity: 1;
+  margin-top: 10px;
+  margin-left: 55px;
+}
+.opportynity-charger-number-3 {
+  text-align: left;
+  font-size: 24px;
+  font-weight: $font-name-Roboto-Medium;
+  letter-spacing: 0px;
+  color: #ec9b98;
+  text-transform: uppercase;
+  opacity: 1;
+  margin-top: 10px;
+  margin-left: 55px;
+}
+.opportynity-charger-number-4 {
+  text-align: left;
+  font-size: 24px;
+  font-weight: $font-name-Roboto-Medium;
+  letter-spacing: 0px;
+  color: #4b85f7;
+  text-transform: uppercase;
+  opacity: 1;
+  margin-top: 10px;
+  margin-left: 40px;
+}
+
+.imagesss {
+  margin-left: 20px;
+}
+
+.imagess-1 {
+  margin-left: 50px;
+  margin-top: 7px;
+}
+
+.opportynity-charger-btn-1 {
+  width: 92px;
+  height: 30px;
+  font-size: 10px;
+  margin-left: 15px;
+  letter-spacing: 0px;
+  color: #353844;
+  text-transform: capitalize;
+  opacity: 1;
+  border-radius: 10px;
+  font-family: $font-name-Roboto-Bold;
+  background: transparent;
+  //font-size: 12px;
+
+  background-color: transparent;
+  //border: 1px solid #000000;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+
+  font-family: $font-name-Roboto-Bold;
+  .opportynity-charger-button-png {
+    height: 6px;
+    padding-left: 2px;
+    padding-bottom: 1px;
+  }
+}
+
+.opportynity-charger-btn-1:hover {
+  background-color: #d8231d;
+  color: white;
+}
+
+// .collapse{
+
+//   border-radius: 50%;
+//   height: 20px;
+//   width: 20px;
+//   margin-top: -23px;
+// }

@@ -1,0 +1,17 @@
+@import "../../stylesheets/robotoFonts";
+
+.dropdown {
+  margin-right: 20px;
+  select {
+    background-color: #d8231d;
+    color: white;
+    font-family: $font-name-Roboto-Medium;
+    font-size: 12px;
+    font-weight: 500;
+    font-variant: normal;
+    border: 1px solid white;
+    padding: 3px;
+    border-radius: 4px;
+    margin-top: -7px;
+  }
+}

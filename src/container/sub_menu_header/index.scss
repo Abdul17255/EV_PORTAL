@@ -1,0 +1,115 @@
+@import "../../stylesheets/robotoFonts";
+
+.submenu {
+  display: flex;
+  //top: 94px;
+  //width: 100%;
+  height: 40px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 1;
+  font-family: $font-name-Roboto-Regular;
+  font-style: normal;
+  font-weight: 700;
+  margin-top: -8px;
+
+  .a-left {
+    display: flex;
+    margin-left: 48px;
+    margin-top: 10px;
+
+    height: 100%;
+
+    .select {
+      top: 794px;
+      left: 1136px;
+      // width: 168px;
+      // height: 38px;
+      /* UI Properties */
+      background: #ffffff 0% 0% no-repeat padding-box;
+      //border: 1px solid #767C90;
+      border-radius: 5px;
+      font-family: $font-name-Roboto-Regular;
+      font-size: 10px;
+      font-weight: 700;
+      font-variant: normal;
+      color: #353843;
+      opacity: 1;
+      display: flex;
+      //align-items: flex-end;
+    }
+  }
+  .vehicle {
+    top: 207px;
+    left: 45px;
+    // width: 66px;
+    // height: 14px;
+    /* UI Properties */
+    text-align: left;
+    font-family: $font-name-Roboto-Regular;
+    font-size: 10px;
+    font-weight: 600;
+    font-variant: normal;
+    letter-spacing: 0.24px;
+    color: #353843;
+    opacity: 1;
+  }
+
+  .a-right {
+    display: flex;
+    // margin-left: 84%;
+    // margin-top: 16px;
+    margin-top: 10px;
+    //margin-left: 55%;
+    height: 100%;
+    
+
+    .react-select {
+      //   top: 207px;
+      // left: 1146px;
+      // width: 168px;
+      // height: 40px;
+      /* UI Properties */
+      text-align: left;
+      //font: normal normal bold 12px/14px Roboto;
+      font-family: $font-name-Roboto-Regular;
+      font-style: normal;
+      font-weight: 400;
+      letter-spacing: 0.24px;
+      color: #353843;
+      font-size: 10px;
+      opacity: 1;
+    }
+
+    .button-submit {
+      background-color: #e63e33;
+      width: 103px;
+      height: 34px;
+      margin-left: 5px;
+      border-radius: 3px;
+      border: none;
+      /* UI Properties */
+      text-align: center;
+      letter-spacing: 0px;
+      color: #ffffff;
+      font-size: 14px;
+      text-transform: capitalize;
+      border-radius: 6px;
+      opacity: 1;
+      margin-top: 8px;
+    }
+    .export {
+      margin-left: 9px;
+      margin-top: 22px;
+      font-family: $font-name-Roboto-Regular;
+      font-size: 12px;
+      font-weight: 500;
+      cursor: pointer;
+      font-variant: normal;
+    }
+    .export-image {
+      margin-left: 5px;
+      cursor: pointer;
+      margin-top: 2px;
+    }
+  }
+}

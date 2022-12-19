@@ -1,0 +1,208 @@
+@import "../../stylesheets/robotoFonts";
+
+.vehicle-route-update {
+    margin-top: -40px;
+  
+    .formwidth {
+      width: 100%;
+      height: auto;
+      overflow: auto;
+      font-size: 1rem;
+      font-family: $font-name-Roboto-Regular;
+    }
+    .vehicle-master-id{
+      margin-top: -22px;
+      font-weight: 600;
+      font-size: 1rem;
+      font-family: $font-name-Roboto-Regular;
+      margin-left: 15px;
+      span{
+        margin-right: 60px;
+      }
+    }
+
+    .col_50 {
+      width: 48%;
+      float: left;
+      margin-right: 1%;
+      
+      margin-left: 1%;
+    }
+    .col_100 {
+      width: 100% !important;
+      float: left;
+      margin-left: 2%;
+      display: inline-flex !important;
+
+    }
+    .react-datepicker {
+      height: 10%;
+    }
+    .u {
+      margin-top: 3%;
+  
+      width: 7%;
+      background-color: #0089d3;
+      color: white;
+      height: 1.5rem;
+      padding: 0 1.6rem;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+    .close {
+      color: #aaa;
+      font-size: 14px;
+      font-weight: bold;
+      height: 30px;
+      position: absolute;
+      right: 30px;
+    }
+  
+    .button-route-master {
+      margin-top: 100px;
+      //margin-bottom: 6%;
+      width: 30%;
+      margin-right: 7%;
+      //margin-left: 50.5%;
+      background-color: #0089d3;
+      color: #fff;
+      height: 2.5rem;
+      padding: 0 2.6rem;
+      border: none;
+      line-height: 1;
+      text-align: center;
+      font-size: 1.5rem;
+      border-radius: 0.35rem;
+      font-family: $font-name-Roboto-Regular;
+    }
+    // .button3 {
+    //   margin-top: 2%;
+    //   width: 8%;
+    //   margin-left: 46%;
+    //   background-color: #0089d3;
+    //   color: #fff;
+    //   height: 2.5rem;
+    //   padding: 0 2.6rem;
+    //   border: none;
+    //   line-height: 1;
+    //   text-align: center;
+    //   font-size: 1.5rem;
+    //   border-radius: 0.35rem;
+    //   font-family: $font-name-Roboto-Regular;
+    //   margin-bottom: 1%;
+    // }
+    input[type="text"],
+    select,
+    input[type="number"],
+    input[type="date"] {
+      margin: auto;
+      width: 100%;
+      padding: 8px 10px;
+      margin: 10px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      //display: block;
+      position: relative;
+      background-color: #f5f5f5;
+      border-bottom: 2px solid #ccc;
+      color: $color-black-primary1;
+      text-align: left;
+    }
+    .alert {
+      padding: 12px 20px;
+      font-size: 16px;
+      position: absolute;
+      color: white;
+      font-family: $font-name-Roboto-Regular;
+      left: 3;
+      right: 0;
+      top: 0;
+      border-right: 10px solid #fff;
+    }
+  
+    .error {
+      background-color: #f44336;
+    }
+  
+    .success {
+      background-color: #4caf50;
+    }
+  
+    .closebtn {
+      margin-left: 15px;
+      color: white;
+      font-weight: bold;
+      float: right;
+      font-size: 22px;
+      line-height: 20px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+  
+    .closebtn:hover {
+      color: black;
+    }
+    .react-datepicker__month-container,
+    .react-datepicker {
+      width: 300px;
+      //height: 300px;
+    }
+    .react-datepicker-wrapper,
+    .react-datepicker__input-container,
+    .react-datepicker__input-container input {
+      display: block;
+      width: 100%;
+    }
+    .react-datepicker__month-container,
+    .react-datepicker {
+      width: 300px;
+      //height: 300px;
+    }
+    .react-datepicker-wrapper,
+    .react-datepicker__input-container,
+    .react-datepicker__input-container input {
+      display: block;
+      width: 100%;
+    }
+    .react-datepicker__month-container,
+    .react-datepicker {
+      width: 300px;
+      //height: 300px;
+    }
+    .react-datepicker-wrapper,
+    .react-datepicker__input-container,
+    .react-datepicker__input-container input {
+      display: block;
+      width: 100%;
+    }
+    .react-datepicker__month-container,
+    .react-datepicker {
+      width: 300px;
+      //height: 300px;
+    }
+    .react-datepicker-wrapper,
+    .react-datepicker__input-container,
+    .react-datepicker__input-container input {
+      display: block;
+      width: 100%;
+    }
+    .react-datepicker__month-container,
+    .react-datepicker {
+      width: 300px;
+      //height: 300px;
+    }
+    .react-datepicker-wrapper,
+    .react-datepicker__input-container,
+    .react-datepicker__input-container input {
+      display: block;
+      width: 100%;
+    }
+    .modal-footer {
+        margin-right: 35% !important;
+    }
+
+  }
+  

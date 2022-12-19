@@ -1,0 +1,316 @@
+@import "../../stylesheets/robotoFonts";
+.charger-status {
+  width: 1620px;
+  height: 223px;
+  /* UI Properties */
+
+  background: transparent linear-gradient(180deg, #ffffff 0%, #d0e0fc 100%) 0%
+    0% no-repeat padding-box;
+  border: 1px solid #dbdee8;
+  border-radius: 10px;
+  opacity: 1;
+}
+
+.charger-status-text {
+  text-align: left;
+  font-size: 16px;
+  font-family: $font-name-Roboto-Medium;
+  letter-spacing: 0px;
+  color: #041f46;
+  opacity: 1;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.charger-status-div {
+  display: flex;
+  margin-left: 70px;
+  margin-top: 20px;
+  gap: 170px;
+
+  .charger-status-available {
+    .charger-available-number {
+      margin-top: 10px;
+      text-align: left;
+      font-size: 31px;
+      font-family: $font-name-Roboto-Medium;
+      letter-spacing: 0px;
+      color: #7aae4f;
+      text-transform: uppercase;
+      opacity: 1;
+    }
+
+    .charger-available-text {
+      text-align: left;
+      font-size: 11px;
+      font-family: $font-name-Roboto-Medium;
+      //letter-spacing: 1.1px;
+      color: #353844;
+      text-transform: uppercase;
+      opacity: 1;
+    }
+    .charger-available-button{
+        margin-top: -15px;
+    .charger-available-btn {
+      height: 25px;
+      width: 65%;
+      padding-left: 14px;
+      background-color: white;
+      border: 1px solid #000000;
+      cursor: pointer;
+      border-radius: 20px;
+      // text-align: left;
+      font-size: 8px;
+      font-weight: 900;
+      font-variant: normal;
+      text-align: center;
+      font-family: $font-name-Roboto-Regular;
+      letter-spacing: 1px;
+      color: black;
+      text-transform: uppercase;
+      opacity: 1;
+      margin-top: -30px;
+      //margin-left: 60px;
+    }
+
+    .charger-available-button-png {
+      height: 6px;
+      padding-left: 2px;
+      padding-bottom: 1px;
+    }
+}
+  }
+
+
+
+
+  .charger-status-occupied {
+    .charger-occupied-number {
+      margin-top: 10px;
+      text-align: left;
+      font-size: 31px;
+      font-family: $font-name-Roboto-Medium;
+      letter-spacing: 0px;
+      color: #F5C06B;
+      text-transform: uppercase;
+      opacity: 1;
+    }
+
+    .charger-occupied-text {
+      text-align: left;
+      font-size: 11px;
+      font-family: $font-name-Roboto-Medium;
+      //letter-spacing: 1.1px;
+      color: #353844;
+      text-transform: uppercase;
+      opacity: 1;
+      margin-top: -5px;
+    }
+    .charger-occupied-button{
+        margin-top: -15px;
+    .charger-occupied-btn {
+      height: 25px;
+      width: 70%;
+      padding-left: 14px;
+      background-color: white;
+      border: 1px solid #000000;
+      cursor: pointer;
+      border-radius: 20px;
+      // text-align: left;
+      font-size: 8px;
+      font-weight: 900;
+      font-variant: normal;
+      text-align: center;
+      font-family: $font-name-Roboto-Regular;
+      letter-spacing: 1px;
+      color: black;
+      text-transform: uppercase;
+      opacity: 1;
+      margin-top: -30px;
+      //margin-left: 60px;
+    }
+
+    .charger-occupied-button-png {
+      height: 6px;
+      padding-left: 2px;
+      padding-bottom: 1px;
+    }
+}
+  }
+
+
+  .charger-status-breakdown{
+    .charger-breakdown-number {
+      margin-top: 10px;
+      text-align: left;
+      font-size: 31px;
+      font-family: $font-name-Roboto-Medium;
+      letter-spacing: 0px;
+      color: #EC9B98;
+      text-transform: uppercase;
+      opacity: 1;
+    }
+
+    .charger-breakdown-text{
+      text-align: left;
+      font-size: 11px;
+      font-family: $font-name-Roboto-Medium;
+      //letter-spacing: 1.1px;
+      color: #353844;
+      text-transform: uppercase;
+      opacity: 1;
+      margin-top: -5px;
+    }
+    .charger-breakdown-button{
+        margin-top: -15px;
+    .charger-breakdown-btn {
+      height: 25px;
+      width: 70%;
+      padding-left: 14px;
+      background-color: white;
+      border: 1px solid #000000;
+      cursor: pointer;
+      border-radius: 20px;
+      // text-align: left;
+      font-size: 8px;
+      font-weight: 900;
+      font-variant: normal;
+      text-align: center;
+      font-family: $font-name-Roboto-Regular;
+      letter-spacing: 1px;
+      color: black;
+      text-transform: uppercase;
+      opacity: 1;
+      margin-top: -30px;
+      //margin-left: 60px;
+    }
+
+    .charger-breakdown-button-png {
+      height: 6px;
+      padding-left: 2px;
+      padding-bottom: 1px;
+    }
+}
+  }
+
+
+
+  .charger-status-efficiency{
+    .charger-efficiency-number {
+      margin-top: 10px;
+      text-align: left;
+      font-size: 31px;
+      font-family: $font-name-Roboto-Medium;
+      letter-spacing: 0px;
+      color: #EC9B98;
+      text-transform: uppercase;
+      opacity: 1;
+    }
+
+    .charger-efficiency-text{
+      text-align: left;
+      font-size: 11px;
+      font-family: $font-name-Roboto-Medium;
+      //letter-spacing: 1.1px;
+      color: #353844;
+      text-transform: uppercase;
+      opacity: 1;
+      margin-top: -5px;
+    }
+    .charger-efficiency-button{
+        margin-top: -15px;
+    .charger-efficiency-btn {
+      height: 25px;
+      width: 70%;
+      padding-left: 14px;
+      background-color: white;
+      border: 1px solid #000000;
+      cursor: pointer;
+      border-radius: 20px;
+      // text-align: left;
+      font-size: 8px;
+      font-weight: 900;
+      font-variant: normal;
+      text-align: center;
+      font-family: $font-name-Roboto-Regular;
+      letter-spacing: 1px;
+      color: black;
+      text-transform: uppercase;
+      opacity: 1;
+      margin-top: -30px;
+      //margin-left: 60px;
+    }
+
+    .charger-efficiency-button-png {
+      height: 6px;
+      padding-left: 2px;
+      padding-bottom: 1px;
+    }
+}
+  }
+
+
+
+
+
+  .charger-status-opportunity{
+    .charger-opportunity-number {
+      margin-top: 10px;
+      text-align: left;
+      font-size: 31px;
+      font-family: $font-name-Roboto-Medium;
+      letter-spacing: 0px;
+      color: #EC9B98;
+      text-transform: uppercase;
+      opacity: 1;
+    }
+
+    .charger-opportunity-text{
+      text-align: left;
+      font-size: 11px;
+      font-family: $font-name-Roboto-Medium;
+      //letter-spacing: 1.1px;
+      color: #353844;
+      text-transform: uppercase;
+      opacity: 1;
+      margin-top: -5px;
+    }
+    .charger-opportunity-button{
+        margin-top: -15px;
+    .charger-opportunity-btn {
+      height: 25px;
+      width: 70%;
+      padding-left: 14px;
+      background-color: white;
+      border: 1px solid #000000;
+      cursor: pointer;
+      border-radius: 20px;
+      // text-align: left;
+      font-size: 8px;
+      font-weight: 900;
+      font-variant: normal;
+      text-align: center;
+      font-family: $font-name-Roboto-Regular;
+      letter-spacing: 1px;
+      color: black;
+      text-transform: uppercase;
+      opacity: 1;
+      margin-top: -30px;
+      //margin-left: 60px;
+    }
+
+    .charger-opportunity-button-png {
+      height: 6px;
+      padding-left: 2px;
+      padding-bottom: 1px;
+    }
+}
+  }
+
+
+
+  
+
+
+
+}

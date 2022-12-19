@@ -1,0 +1,29 @@
+
+.header-logo {
+  display: flex;
+  align-items: center;
+
+  & > img:first-child {
+    cursor: pointer;
+  }
+
+  &__volvo {
+    padding-left: 2.107rem;
+    width: 9rem;
+  }
+
+  &_volvo__image {
+    padding-top: 10px;
+    width: 14rem;
+    cursor: pointer;
+    padding-left: 2.107rem;
+  }
+
+  &_line {
+    width: 0.142rem;
+    height: 1.5rem;
+    margin-left: 1.7rem;
+    margin-right: 1.14rem;
+    background-color: #e5e5e5;
+  }
+}

@@ -1,0 +1,73 @@
+@import "../../src/stylesheets/variables";
+
+$font-name-Roboto-Black: "Roboto-Black";
+@font-face {
+  font-family: $font-name-Roboto-Black;
+  src: url(../assets/fonts/Roboto-Black.ttf) format("truetype");
+}
+
+$font-name-Roboto-BlackItalic: "Roboto-BlackItalic";
+@font-face {
+  font-family: $font-name-Roboto-BlackItalic;
+  src: url(../assets/fonts/Roboto-BlackItalic.ttf) format("truetype");
+}
+
+$font-name-Roboto-Bold: "Roboto-Bold";
+@font-face {
+  font-family: $font-name-Roboto-Bold;
+  src: url(../assets/fonts/Roboto-Bold.ttf) format("truetype");
+}
+
+$font-name-Roboto-BoldItalic: "Roboto-BoldItalic";
+@font-face {
+  font-family: $font-name-Roboto-BoldItalic;
+  src: url(../assets/fonts/Roboto-BoldItalic.ttf) format("truetype");
+}
+
+$font-name-Roboto-Italic: "Roboto-Italic";
+@font-face {
+  font-family: $font-name-Roboto-Italic;
+  src: url(../assets/fonts/Roboto-Italic.ttf) format("truetype");
+}
+
+$font-name-Roboto-Light: "Roboto-Light";
+@font-face {
+  font-family: $font-name-Roboto-Light;
+  src: url(../assets/fonts/Roboto-Light.ttf) format("truetype");
+}
+
+// $font-name-Roboto-Light: "Roboto-LightItalic";
+// @font-face {
+//   font-family: $font-name-Roboto-LightItalic;
+//   src: url(../assets/fonts/Roboto-LightItalic.ttf) format("truetype");
+// }
+
+$font-name-Roboto-Medium: "Roboto-Medium";
+@font-face {
+  font-family: $font-name-Roboto-Medium;
+  src: url(../assets/fonts/Roboto-Medium.ttf) format("truetype");
+}
+
+$font-name-Roboto-MediumItalic: "Roboto-MediumItalic";
+@font-face {
+  font-family: $font-name-Roboto-MediumItalic;
+  src: url(../assets/fonts/Roboto-MediumItalic.ttf) format("truetype");
+}
+
+$font-name-Roboto-Regular: "Roboto-Regular";
+@font-face {
+  font-family: $font-name-Roboto-Regular;
+  src: url(../assets/fonts/Roboto-Regular.ttf) format("truetype");
+}
+
+$font-name-Roboto-Thin: "Roboto-Thin";
+@font-face {
+  font-family: $font-name-Roboto-Thin;
+  src: url(../assets/fonts/Roboto-Thin.ttf) format("truetype");
+}
+
+$font-name-Roboto-ThinItalic: "Roboto-ThinItalic";
+@font-face {
+  font-family: $font-name-Roboto-ThinItalic;
+  src: url(../assets/fonts/Roboto-ThinItalic.ttf) format("truetype");
+}

@@ -1,0 +1,62 @@
+// colors
+// black shade
+$color-black-primary1: #222222;
+// white shade
+$color-white-primary1: #ffffff;
+// grey shade
+$color-grey-primary1: #f4f6f8;
+$color-grey-primary2: #8c8c8c;
+$color-grey-primary3: #bababa;
+$color-grey-primary4: #f8f8f8;
+// blue shade
+$color-blue-primary1: #0089d3;
+$color-blue-primary2: #e0e9f9;
+$color-blue-primary3: #eaf6fc;
+$color-blue-primary4: #35c7c7;
+// pink shade
+$color-pink-primary: #ff3c7e;
+$color-pink-primary2: #f2637b;
+// red shade
+$color-red-primary: #ff3750;
+// purple shade
+$color-purple-primary: #975fe4;
+// yellow shde
+$color-yellow-primary: #fad337;
+// green shde
+$color-green-primary: #4bc570;
+
+// Black - 5
+$color-black-5: rgba(30, 30, 30, 0.05);
+// Warm grey two
+$color-warm-grey-two: #979797;
+// fonts
+
+// Inter UI
+$font-name-interui-bold: "inter-ui-bold";
+
+$font-filename-interui-bold: "/inter-ui-bold.ttf";
+
+// Lato
+$font-filename-lato-regular: "/Lato-Regular.ttf";
+
+$font-name-lato-regular: "Lato-Regular";
+
+// Inherit
+
+$font-filename-inherit-regular: "/Inheritance.ttf";
+
+$font-name-inherit-regular: "inherit-regular";
+
+$font-size-default: 1.6rem;
+$font-size-heading: 2.6rem;
+$font-size-subtitle: 2rem;
+
+$primary: #ffffff;
+$primaryFont: "Fira Sans";
+
+$font-path: "../assets/fonts/";
+
+// @font-face {
+//   font-family: $font-name-Roboto-Bold;
+//   src: url(../assets/fonts/) format("truetype");
+// }

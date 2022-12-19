@@ -1,0 +1,174 @@
+// @import "../../stylesheets/robotoFonts";
+
+// .trip-creation {
+//   &__layout {
+//     height: calc(100vh - 2.85rem - 5rem - 1.71rem - 1.71rem - 1.71rem);
+//     background-color: transparent;
+//     display: flex;
+//     flex-wrap: wrap;
+//     padding: 0 1.71rem;
+//     &__col-1 {
+//       width: 100%;
+//       height: 100%;
+//       &__block {
+//         height: 100%;
+//         padding-right: 1.71rem;
+//         &__wrapper {
+//           height: 100%;
+//           width: 100%;
+//           // background-color: $color-white-primary1;
+//           background-color: #fff;
+//           border-radius: 10px;
+//           &__header {
+//             color: #222222;
+//             // height: 4rem;
+//             display: flex;
+//             justify-content: space-between;
+//             position: relative;
+//             &__left {
+//               display: flex;
+//               flex-direction: row;
+//               &__tab {
+//                 position: relative;
+//                 &:after {
+//                   content: " ";
+//                   display: table;
+//                   clear: both;
+//                 }
+//                 margin: 0;
+//                 padding: 0;
+//                 list-style: none;
+//                 display: flex;
+//                 flex-direction: row;
+//                 justify-content: center;
+//                 cursor: pointer;
+//                 font-family: $font-name-Roboto-Regular;
+//                 text-align: center;
+//                 margin-left: 2.286rem;
+//                 position: relative;
+//                 overflow: hidden;
+//                 &:first-child {
+//                   margin-left: 1.714rem;
+//                 }
+//                 > a {
+//                   align-self: center;
+//                   display: block;
+//                   text-decoration: none;
+//                   color: black !important;
+//                   transition: color 0.15s;
+//                   font-size: 1.28rem;
+//                   pointer-events: none;
+//                 }
+//                 &.active {
+//                   > a {
+//                     // color: $color-blue-primary1;
+//                     //opacity: 1;
+//                     font-family: $font-name-Roboto-Bold;
+//                     font-size: 1.28rem;
+//                     color: black !important;
+//                   }
+//                   .swap-stations__body__layout__col-1__block__wrapper__header__left__tab-strip {
+//                     opacity: 1;
+//                   }
+//                 }
+//                 &:hover {
+//                   > a {
+//                     // opacity: 1;
+
+//                     font-family: $font-name-Roboto-Bold;
+//                     font-size: 1.28rem;
+//                     color: black;
+//                     // color: $color-blue-primary1;
+//                   }
+//                   .swap-stations__body__layout__col-1__block__wrapper__header__left__tab-strip {
+//                     //opacity: 1;
+//                     -webkit-animation-name: horizontal-strip-move-animation;
+//                     -webkit-animation-duration: 2s;
+//                     animation-name: horizontal-strip-move-animation;
+//                     animation-duration: 0.2s;
+//                   }
+//                 }
+//               }
+//               &__tab-strip {
+//                 width: 100%;
+//                 height: 0.214rem;
+//                 background-color: blue;
+//                 opacity: 0;
+//                 position: absolute;
+//                 bottom: 0px;
+//               }
+//             }
+//             &__right {
+//               display: flex;
+//               align-items: center;
+//               margin-right: 1.7143rem;
+//             }
+//           }
+//           &__horizontal-line {
+//             height: 0.2143rem;
+//             opacity: 0.2;
+//             color: grey;
+//           }
+//           &__content {
+//             width: 100%;
+//             height: 75%;
+//             overflow: scroll;
+//             margin-top: 3.357rem;
+//           }
+//         }
+//       }
+//     }
+//     //  &__col-2 {
+//     //      width:24%;
+//     //      height:100%;
+//     //      position: relative;
+//     //      &__title {
+//     //          position: absolute;
+//     //          top: 1.6rem;
+//     //          left: 1.6rem;
+//     //          z-index: 9999;
+//     //          font-family: "calibri-bold";
+//     //          font-size: 1.42rem;
+//     //          color: #222222;
+//     //      }
+//     //      &__block {
+//     //          height:100%;
+//     //      }
+//     //  }
+//   }
+
+//   .alert {
+//     padding: 12px 20px;
+//     font-size: 16px;
+//     position: absolute;
+//     color: white;
+//     font-family: $font-name-Roboto-Bold;
+//     left: 3;
+//     right: 0;
+//     top: 0;
+//     border-right: 10px solid #fff;
+//   }
+
+//   .error {
+//     background-color: #f44336;
+//   }
+
+//   .success {
+//     background-color: #4caf50;
+//   }
+
+//   .closebtn {
+//     margin-left: 15px;
+//     color: white;
+//     font-weight: bold;
+//     float: right;
+//     font-size: 22px;
+//     line-height: 20px;
+//     cursor: pointer;
+//     transition: 0.3s;
+//   }
+
+//   .closebtn:hover {
+//     color: black;
+//   }
+// }

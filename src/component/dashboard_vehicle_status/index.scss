@@ -1,0 +1,76 @@
+@import "../../stylesheets/robotoFonts";
+
+
+
+.table-content {
+  display: flex;
+  gap: 27px;
+  margin-left: 15px;
+  margin-top: 3px;
+
+  // gap: 5px;
+}
+.lotty-1{
+    width: 60px;
+}
+
+.lotty{
+    width: 60px;
+}
+
+
+.contents-texts {
+  font-size: 12px;
+  font-family: $font-name-Roboto-Bold;
+  letter-spacing: 0.24px;
+  color: #6e6e6e;
+  text-transform: uppercase;
+  opacity: 1;
+  margin-top: -8px;
+  margin-left: 13px;
+}
+
+.content-number {
+  text-align: left;
+  font-family: $font-name-Roboto-Bold;
+  font-size: 15px;
+  letter-spacing: 0.3px;
+  color: #343844;
+  opacity: 1;
+  margin-left: 23px;
+  margin-top: -10px;
+}
+
+.content-img {
+  width: 20px;
+  height: 20px;
+  margin-top: 10px;
+}
+
+.contents-img {
+  margin-top: 3px;
+  width: 60px;
+  height: 55px;
+}
+
+.contents-texts-1 {
+  font-size: 12px;
+  font-family: $font-name-Roboto-Bold;
+  letter-spacing: 0.24px;
+  color: #6e6e6e;
+  text-transform: uppercase;
+  opacity: 1;
+  margin-top: -5px;
+  margin-left: -5px;
+}
+
+.content-number-1 {
+  text-align: left;
+  font-family: $font-name-Roboto-Bold;
+  font-size: 15px;
+  letter-spacing: 0.3px;
+  color: #343844;
+  opacity: 1;
+  margin-left: 24px;
+  margin-top: -11px;
+}

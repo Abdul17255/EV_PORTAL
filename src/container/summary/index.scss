@@ -1,0 +1,72 @@
+@import "../../stylesheets/robotoFonts";
+.summary-table {
+  margin-left: 20px;
+  .ReactTable .rt-thead .rt-th.-cursor-pointer {
+    background-color: #eaedf1;
+    padding: 9px;
+    mix-blend-mode: normal;
+    text-align: center;
+    opacity: 1;
+    color: #2d2357;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: $font-name-Roboto-Medium;
+  }
+
+  .ReactTable .rt-tbody {
+    text-align: center;
+    min-width: 100px;
+
+    display: flex;
+    flex-direction: column;
+    // overflow-x: none;
+  }
+  .ReactTable .rt-table {
+    flex: auto 1;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+    border-collapse: collapse;
+    // overflow-x:;
+  }
+}
+
+.onclick-action {
+  color: #da3d48;
+  text-transform: uppercase;
+  opacity: 1;
+  font-weight: 900;
+  font-size: 14px;
+  letter-spacing: 0px;
+  font-family: $font-name-Roboto-Bold;
+  text-decoration: none;
+}
+
+.onclick-action:hover {
+  color: red;
+}
+
+.search-summary-report {
+  margin-top: 15px;
+  margin-left: 33px;
+  margin-bottom: 10px;
+  font-family: $font-name-Roboto-Regular;
+}
+
+.loader-overlay {
+  position: fixed;
+  top: 150px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  //background: rgba(249, 246, 246, 0.2);
+  z-index: 1;
+}
+
+.loader-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

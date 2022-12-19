@@ -1,0 +1,45 @@
+.fleet-health-head{
+    background: transparent linear-gradient(180deg, #073a81 0%, #041d41 100%) 0%
+    0% no-repeat padding-box;
+  box-shadow: inset 0px 3px 6px #000000bf;
+}
+
+// .hr-right{
+//     border-right-width:1px solid  gray
+// }
+
+.w-2{
+    width: 24%;
+}
+
+.fleet-health-head{
+    display: flex;
+}
+
+.fleet-health-head-text{
+    text-align: center;
+    font: normal normal bold 12px/14px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+
+.fleet-health-head-number{
+    //text-align: center;
+font: normal normal bold 24px/28px Roboto;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+//margin-left: 60px;
+margin-top: 50px;
+}
+
+.border-rt {
+    border-right: 1px solid #ECEDF2;
+  }
+
+  .bg-red{
+    background-color: #ECEDF2;
+  }

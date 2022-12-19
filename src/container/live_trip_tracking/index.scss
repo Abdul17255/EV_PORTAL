@@ -1,0 +1,239 @@
+@import "../../stylesheets/robotoFonts";
+.bg-color {
+  background-color: #ebedf0;
+}
+
+.wd-10 {
+  width: 15%;
+}
+
+.wd-20 {
+  width: 20%;
+}
+.wd-5 {
+  width: 15%;
+}
+
+.live-trip-track-submenu {
+  display: flex;
+  margin-left: 30px;
+}
+
+
+.live-trip-track-image {
+  margin-left: 11px;
+  margin-top: 32px;
+  display: flex;
+}
+.live-trip-track-head {
+  text-align: left;
+  font-family: $font-name-Roboto-Bold;
+  font-size: 20px;
+  letter-spacing: 0px;
+  color: #073a81;
+  text-transform: capitalize;
+  opacity: 1;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+.live-trip-track-col-1-text {
+  text-align: left;
+  font-family: $font-name-Roboto-Bold;
+  letter-spacing: 0px;
+  color: #18397d;
+  opacity: 1;
+  font-size: 14px;
+  margin-left: 7px;
+}
+
+.live-trip-track-col-1-text-2 {
+  text-align: left;
+  font-size: 12px;
+  letter-spacing: 0px;
+  color: #787e8f;
+  opacity: 1;
+  font-family: $font-name-Roboto-Bold;
+  margin-left: 70px;
+  margin-top: -20px;
+}
+
+.live-trip-track-col-2 {
+  display: flex;
+}
+
+.live-trip-track-col-2-text-1 {
+  font-size: 12px;
+  font-family: $font-name-Roboto-Bold;
+  letter-spacing: 0px;
+  color: #434343;
+  opacity: 1;
+  margin-left: 7px;
+  margin-top: 20px;
+}
+
+.live-trip-track-second-text-1-text {
+  font-size: 12px;
+  font-family: $font-name-Roboto-Bold;
+  letter-spacing: 0px;
+  color: #434343;
+  opacity: 1;
+  margin-left: 1px;
+  margin-top: 20px;
+}
+
+.live-trip-track-col-2-text-2 {
+  font-size: 12px;
+  font-family: $font-name-Roboto-Bold;
+  letter-spacing: 0px;
+  color: #434343;
+  opacity: 1;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.live-trip-track-col-2-image {
+  margin-left: 14px;
+  margin-top: 32px;
+  //margin-right: 50px;
+  width: 15px;
+  height: 15px;
+}
+
+.live-trip-track-col-2-div {
+  display: flex;
+}
+
+.live-trip-track-col-2-text-3 {
+  font-size: 12px;
+  font-family: $font-name-Roboto-Bold;
+  letter-spacing: 0px;
+  color: #787e8f;
+  opacity: 1;
+  margin-left: -3px;
+  margin-top: -10px;
+  white-space: nowrap;
+}
+
+.live-trip-track-col-2-text-4 {
+  font-size: 12px;
+  font-family: $font-name-Roboto-Bold;
+  letter-spacing: 0px;
+  color: #787e8f;
+  opacity: 1;
+  margin-left: 50px;
+  margin-top: -10px;
+  white-space: nowrap;
+}
+
+.live-trip-track-col-3-text-1 {
+  text-align: left;
+  font-size: 12px;
+  font-family: $font-name-Roboto-Bold;
+  letter-spacing: 0px;
+  color: #434343;
+  opacity: 1;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.live-trip-track-col-3-text-2 {
+  text-align: left;
+  font-size: 12px;
+  font-family: $font-name-Roboto-Bold;
+  letter-spacing: 0px;
+  color: #787e8f;
+  opacity: 1;
+  margin-top: -10px;
+  margin-left: 20px;
+}
+
+.live-trip-track-col-3-text-3 {
+  text-align: left;
+  font-size: 12px;
+  font-family: $font-name-Roboto-Bold;
+  letter-spacing: 0px;
+  color: #787e8f;
+  opacity: 1;
+  margin-top: -10px;
+  margin-left: 35px;
+}
+
+.live-trip-track-second-text-1 {
+  text-align: left;
+  font-size: 12px;
+  font-family: $font-name-Roboto-Bold;
+  letter-spacing: 0px;
+  color: #434343;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.live-trip-track-second-text-2 {
+  text-align: left;
+  font-size: 12px;
+  font-family: $font-name-Roboto-Bold;
+  letter-spacing: 0px;
+  color: #787e8f;
+  opacity: 1;
+  margin-left: 30px;
+  margin-top: -10px;
+}
+
+.live-track-mapaction {
+  margin-left: -15px;
+  margin-top: -5px;
+}
+
+.map-wd {
+  width: 80%;
+}
+
+.live-trip-track-second-text-mapaction {
+  font-size: 14px;
+  font-family: $font-name-Roboto-Bold;
+  letter-spacing: 0px;
+  color: #434343;
+  text-transform: uppercase;
+  opacity: 1;
+  margin-left: 7px;
+  margin-top: 10px;
+}
+
+
+.live-trip-track_div_labels {
+  display: flex;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+// label{
+//   display: flex;
+//   width: 180px;
+//   //margin-right: 70px;
+// }
+.live-trip-track_div_labels_style {
+  display: flex;
+  font-family: $font-name-Roboto-Medium;
+  font-size: 15px;
+  margin-top: -5px;
+  margin-left: 10px;
+}
+
+
+.vehicle_number_drop_submit {
+  background-color: #e63e33;
+  width: 103px;
+  height: 34px;
+  margin-left: -135px;
+  border-radius: 3px;
+  border: none;
+  /* UI Properties */
+  text-align: center;
+  letter-spacing: 0px;
+  color: #ffffff;
+  font-size: 14px;
+  text-transform: capitalize;
+  border-radius: 6px;
+  opacity: 1;
+  margin-top: 9px;
+}

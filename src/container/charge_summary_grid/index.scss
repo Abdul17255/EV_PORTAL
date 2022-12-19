@@ -1,0 +1,116 @@
+@import "../../stylesheets/robotoFonts";
+
+.container-1 {
+  margin-top: 10px;
+  margin-left: 39px;
+  font-family: $font-name-Roboto-Medium;
+  font-style: normal;
+  font-weight: 200;
+  //margin-right: -630px;
+
+  .col-2 {
+    //top: 66px;
+
+    // left: -140px;
+
+    width: 23.9%;
+    height: 175px;
+    border-radius: 10px;
+    margin-left: 8px;
+    background: transparent linear-gradient(180deg, #ffffff 0%, #d0e0fc 100%) 0%
+      0% no-repeat padding-box;
+    //box-shadow: inset 0px 3px 6px #000000bf;
+    border: 1px solid #dbdee8;
+    opacity: 1;
+  }
+
+  .left-charge {
+    .number {
+      top: 836px;
+      left: 50px;
+      text-align: left;
+      //font: normal normal medium 35px/41px Roboto
+      font-family: $font-name-Roboto-Medium;
+      font-style: normal;
+      font-weight: 100;
+      font-size: 28px;
+      letter-spacing: 0px;
+      color: #353844;
+      opacity: 1;
+      margin-top: 4rem;
+    }
+   
+    .text-1 {
+      font-size: 12px;
+      text-align: left;
+      font-family: $font-name-Roboto-Medium;
+      font-weight: 300;
+      letter-spacing: 0.24px;
+      color: #353844;
+      text-transform: uppercase;
+      opacity: 1;
+      margin-top: -1rem;
+    }
+  }
+
+  .right-charge {
+    //margin-right: 7rem;
+    margin-top: 1rem;
+    margin-left: 77%;
+  }
+
+  .chargingevent {
+    margin-left: 0%;
+    margin-top: -136px;
+  }
+
+  .star {
+    padding-left: 100px;
+    margin-top: -150px;
+  }
+  .right-charge-1 {
+    .charge-text-1 {
+      margin-top: -149px;
+      margin-left: 57%;
+      // height: 30px;
+      // width: 66%;
+      //padding-left: 14px;
+      //background-color: #073a81;
+      //border: 1px solid white;
+      //cursor: pointer;
+      border-radius: 20px;
+      // text-align: left;
+      font-size: 9px;
+      font-weight: 600;
+      text-align: center;
+      font-family: $font-name-Roboto-Medium;
+      letter-spacing: 1px;
+      color: black;
+      text-transform: uppercase;
+      opacity: 1;
+      // margin-top: -100px;
+      // margin-left: 34px;
+    }
+  }
+  .chargingevent-1 {
+    margin-top: 20%;
+    margin-left: 79%;
+  }
+}
+
+.loader-overlay {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  font-size: 15px;
+  // background: rgba(0, 0, 0, 0.2);
+  // z-index: 1;
+}
+.loader-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

@@ -1,0 +1,40 @@
+
+
+@import "../../stylesheets/robotoFonts";
+.calanderListview-search{
+   // margin-top: 15px;
+  margin-left: 57%;
+  //margin-bottom: 10px;
+  font-family: $font-name-Roboto-Regular;
+}
+
+.calanderListview-search-input{
+  width: 400px;
+  // margin-top: 6px;
+  height: 30px;
+}
+.ReactTable .rt-thead .rt-th.-cursor-pointer {
+  background-color: #eaedf1;
+  mix-blend-mode: normal;
+  text-align: center;
+  opacity: 1;
+  color: #000;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: $font-name-Roboto-Medium;
+}
+
+
+.driver-monitoring-div{
+  display: flex;
+}
+.driver-monitoring-driver{
+  text-align: left;
+letter-spacing: 0.28px;
+color: #353843;
+opacity: 1;
+font-size: 14px;
+ font-family: $font-name-Roboto-Medium;
+ margin-left: 31px;
+}

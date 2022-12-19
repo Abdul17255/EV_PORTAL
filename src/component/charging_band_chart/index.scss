@@ -1,0 +1,22 @@
+.bar {
+  fill: #4b85f7;
+}
+.axis {
+  font: 10px sans-serif;
+}
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
+[id^="google-visualization-errors"] {
+  display: none;
+}
+#google-visualization-errors-all-3 {
+  display:none;
+}

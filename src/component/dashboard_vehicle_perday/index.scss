@@ -1,0 +1,111 @@
+@import "../../stylesheets/robotoFonts";
+
+.vehicle-perday {
+display: flex;
+gap: 10px;
+  
+}
+
+// .vehicle-perday-text{
+//     text-align: left;
+// font-size: 16px;
+// font-family: $font-name-Roboto-Medium;
+// letter-spacing: 0px;
+// color: #041F46;
+// opacity: 1;
+// margin-top: 10px;
+// margin-left: 15px;
+// }
+
+.perday-content {
+  display: block;
+}
+
+.perday-texts{
+  display: flex;
+  
+}
+.perday-image {
+  margin-left: 20px;
+  width: 40px;
+  margin-top: 60px;
+}
+
+.perday-number {
+  margin-top: 20px;
+  margin-left: 15px;
+  text-align: left;
+  font-size: 15px;
+  font-family: $font-name-Roboto-Bold;
+  letter-spacing: 0.3px;
+  color: #343844;
+  opacity: 1;
+}
+
+.perday-text {
+  margin-top: 20px;
+  text-align: left;
+  margin-left: 12px;
+  font-size: 14px;
+  font-family: $font-name-Roboto-Bold;
+  letter-spacing: 0.28px;
+  color: #19387D;
+  text-transform: uppercase;
+  opacity: 1;
+  
+}
+
+.perday-hr {
+  color: #d0e0fc;
+  margin-top: 30px;
+}
+
+.perday-double-image {
+  display: block;
+}
+
+.double-image-one {
+  display: flex;
+  margin-left: 30px;
+}
+
+// .perday-image-one {
+//   width: 40px;
+// }
+
+// .double-image-two {
+//   display: flex;
+//   margin-left: 150px;
+// }
+
+.perday-text-one {
+  font-size: 13px;
+  letter-spacing: 1.4px;
+  font-size: 14px;
+  font-family: $font-name-Roboto-Bold;
+  letter-spacing: 0.28px;
+  color: #19387D;
+  text-transform: uppercase;
+  opacity: 1;
+  margin-left: 10px;
+}
+
+.perday-number-one {
+  margin-left: 15px;
+  text-align: left;
+  font-size: 15px;
+  font-family: $font-name-Roboto-Bold;
+  letter-spacing: 0.3px;
+  color: #343844;
+  opacity: 1;
+}
+
+// .perpendicular-line {
+//     width: 20%;
+//     margin-left: 10px;
+//     //margin: auto;
+//     margin-top: 10%;
+//     margin-bottom: 0;
+//     transform: rotate(90deg);
+//     border-color: #1A85FD;
+//   }

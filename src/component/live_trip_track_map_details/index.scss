@@ -1,0 +1,308 @@
+// @import "../../stylesheets/robotoFonts";
+
+// .LiveTripDetails_image{
+//     width: 15px;
+//     height: 20px;
+// }
+// .LiveTripDetails_image-stop-dot{
+//     width: 10px;
+//     height: 10px;
+// }
+// .pulsatingDotlive-trip {
+//     //margin-top: 80px;
+//     //margin-left: 15px;
+//     animation: pulseDot 1.25s cubic-bezier(0.455, 0.03, 0.515, 0.955) -0.4s infinite;
+//     background-color: var(--pulsating-dot, blue);
+//     border-radius: 50%;
+//     box-sizing: border-box;
+//     height: 10px;
+//     width: 10px;
+//   }
+
+//   .pulsatingDotlive-trip:before {
+//     animation: pulseRing 1.25s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+//     background-color: var(--pulsating-dot, blue);
+//     border-radius: 45px;
+//     content: "";
+//     display: block;
+//     height: 300%;
+//     left: -100%;
+//     position: relative;
+//     top: -100%;
+//     width: 300%;
+//   }
+
+//   @keyframes pulseRing {
+//     0% {
+//       transform: scale(0.5);
+//     }
+//     80%,
+//     100% {
+//       opacity: 0;
+//     }
+//   }
+
+//   @keyframes pulseDot {
+//     0%,
+//     100% {
+//       transform: scale(1);
+//     }
+//     50% {
+//       transform: scale(1.1);
+//     }
+//   }
+
+//   .LiveTripDetails_start{
+//     display: flex;
+//     margin-left: 30px;
+//     margin-top: 30px;
+//     gap: 50px;
+//   }
+
+//   .LiveTripDetails_head{
+//     text-align: left;
+//     font-size: 12px;
+//     font-family: $font-name-Roboto-Bold;
+// letter-spacing: 0px;
+// color: #18397D;
+// opacity: 1;
+// margin-left: 6px;
+//   }
+
+//   .LiveTripDetails_head_end{
+//     text-align: right;
+//     font-size: 12px;
+//     font-family: $font-name-Roboto-Regular;
+//     letter-spacing: 0px;
+//     color: #434343;
+//     opacity: 1;
+//     margin-left: 270px;
+//   }
+//   .LiveTripDetails_head_end-1{
+//     text-align: right;
+//     font-size: 12px;
+//     font-family: $font-name-Roboto-Regular;
+//     letter-spacing: 0px;
+//     color: #434343;
+//     opacity: 1;
+//     margin-left: 135px;
+//   }
+
+//   .LiveTripDetails_head_text{
+//     text-align: left;
+//     font-size: 12px;
+//     font-family: $font-name-Roboto-Bold;
+// letter-spacing: 0px;
+// color: #434343;
+// opacity: 1;
+//   }
+//   .LiveTripDetails_head_text-1{
+//     text-align: left;
+//     font-size: 12px;
+//     font-family: $font-name-Roboto-Regular;
+//     letter-spacing: 0px;
+//     color: #787E8F;
+//     opacity: 1;
+//     margin-top: -10px;
+//     margin-left: 4px;
+//   }
+
+//   .LiveTripDetails_head_text-2{
+//     text-align: left;
+//     font-size: 12px;
+//     font-family: $font-name-Roboto-Regular;
+//   letter-spacing: 0px;
+//   color: #787E8F;
+//   opacity: 1;
+//   margin-left: 95px;
+//   margin-top: -10px;
+//   }
+
+//   .LiveTripDetails_head_text-3{
+//     text-align: left;
+//     font-size: 12px;
+//     font-family: $font-name-Roboto-Bold;
+// letter-spacing: 0px;
+// color: #18397D;
+// opacity: 1;
+// margin-left: 95px;
+// margin-top: -10px;
+//   }
+
+//   .LiveTripDetails_image-stop{
+//     margin-left: -40px;
+//     width: 25px;
+//     height: 20px;
+//   }
+
+//   .LiveTripDetails_stop_text{
+//     text-align: left;
+//     font-size: 12px;
+//     font-family: $font-name-Roboto-Regular;
+//   letter-spacing: 0px;
+//   color: #787E8F;
+//   opacity: 1;
+//   margin-left:-30px;
+//  // margin-top: -10px;
+//   }
+
+//   .Scroll {
+//     height:420px;
+//     overflow-y: scroll;
+//     overflow-x: hidden;
+//   }
+
+@import "../../stylesheets/robotoFonts";
+
+.LiveTripDetails_image {
+  width: 15px;
+  height: 20px;
+}
+.LiveTripDetails_image-stop-dot {
+  width: 10px;
+  height: 10px;
+  margin-top: 5px;
+}
+.pulsatingDotlive-trip {
+  //margin-top: 80px;
+  //margin-left: 15px;
+  animation: pulseDot 1.25s cubic-bezier(0.455, 0.03, 0.515, 0.955) -0.4s infinite;
+  background-color: var(--pulsating-dot, blue);
+  border-radius: 50%;
+  box-sizing: border-box;
+  height: 10px;
+  width: 10px;
+}
+
+.pulsatingDotlive-trip:before {
+  animation: pulseRing 1.25s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+  background-color: var(--pulsating-dot, blue);
+  border-radius: 45px;
+  content: "";
+  display: block;
+  height: 300%;
+  left: -100%;
+  position: relative;
+  top: -100%;
+  width: 300%;
+}
+
+@keyframes pulseRing {
+  0% {
+    transform: scale(0.5);
+  }
+  80%,
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes pulseDot {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+.LiveTripDetails_start {
+  display: flex;
+  margin-left: 24px;
+  margin-top: 30px;
+  gap: 50px;
+}
+
+.LiveTripDetails_head {
+  text-align: left;
+  font-size: 14px;
+  font-family: $font-name-Roboto-Bold;
+  letter-spacing: 0px;
+  color: #18397d;
+  opacity: 1;
+  margin-left: 6px;
+}
+
+.LiveTripDetails_head_end {
+  text-align: right;
+  font-size: 12px;
+  font-family: $font-name-Roboto-Regular;
+  letter-spacing: 0px;
+  color: #434343;
+  opacity: 1;
+  margin-left: 255px;
+}
+.LiveTripDetails_head_end-1 {
+  text-align: right;
+  font-size: 12px;
+  font-family: $font-name-Roboto-Regular;
+  letter-spacing: 0px;
+  color: #434343;
+  opacity: 1;
+  margin-left: 135px;
+}
+
+.LiveTripDetails_head_text {
+  text-align: left;
+  font-size: 12px;
+  font-family: $font-name-Roboto-Bold;
+  letter-spacing: 0px;
+  color: #434343;
+  opacity: 1;
+}
+.LiveTripDetails_head_text-1 {
+  text-align: left;
+  font-size: 12px;
+  font-family: $font-name-Roboto-Regular;
+  letter-spacing: 0px;
+  color: #787e8f;
+  opacity: 1;
+  margin-top: -10px;
+  margin-left: 1px;
+}
+
+.LiveTripDetails_head_text-2 {
+  text-align: left;
+  font-size: 12px;
+  font-family: $font-name-Roboto-Regular;
+  letter-spacing: 0px;
+  color: #787e8f;
+  opacity: 1;
+  margin-left: 95px;
+  margin-top: -10px;
+}
+
+.LiveTripDetails_head_text-3 {
+  text-align: left;
+  font-size: 12px;
+  font-family: $font-name-Roboto-Bold;
+  letter-spacing: 0px;
+  color: #18397d;
+  opacity: 1;
+  margin-left: 95px;
+  margin-top: -10px;
+}
+
+.LiveTripDetails_image-stop {
+  margin-left: -40px;
+  width: 25px;
+  height: 20px;
+}
+
+.LiveTripDetails_stop_text {
+  text-align: left;
+  font-size: 12px;
+  font-family: $font-name-Roboto-Regular;
+  letter-spacing: 0px;
+  color: #787e8f;
+  opacity: 1;
+  margin-left: -30px;
+  // margin-top: -10px;
+}
+
+.Scroll {
+  height: 420px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}

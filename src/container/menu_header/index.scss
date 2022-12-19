@@ -1,0 +1,236 @@
+@import "../../stylesheets/robotoFonts";
+
+.subheader {
+  width: 100%;
+  top: 66px;
+  left: 0px;
+  //width: 1440px;
+  height: 66px;
+  /* UI Properties */
+  background: #353843 0% 0% no-repeat padding-box;
+  opacity: 1;
+  display: flex;
+  padding-left: 12px;
+}
+#basic-nav-dropdown {
+  display: none;
+  width: 100%;
+  background-color: #353843;
+  box-sizing: border-box;
+}
+nav {
+  text-align: center;
+  
+  //gap:30px;
+}
+.tabs {
+  position: relative;
+ 
+  &:after {
+    content: " ";
+    display: table;
+    clear: both;
+    
+   
+  }
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+
+  &__tab {
+    text-align: center;
+    margin-left: 1.5rem;
+
+    &:first-child {
+      margin-left: 60px;
+    }
+  }
+}
+.navicon {
+  width: 17px;
+  margin-top: -8px;
+  margin-left: -25px;
+}
+.tab {
+  cursor: pointer;
+  // font-family: $font-name-calibri-regular;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  //margin-top: -10px;
+
+  > a {
+    align-self: center;
+    display: block;
+    text-decoration: none;
+    color: #353843;
+    transition: color 0.15s;
+    // font-size: 1.142rem;
+    font-size: 13px;
+    font-family: $font-name-Roboto-Regular;
+    font-style: normal;
+    font-weight: 300;
+    pointer-events: none;
+    margin-top: -25px;
+    letter-spacing: 0px;
+  }
+  // > a &:before {
+  //   content: url(../../assets/images/arrow-up/up.png);
+  //   float: right;
+  //   margin-left: -10px;
+  //   margin-top: 10px;
+  // }
+  &.active {
+    > a {
+      // color: #c4c4c8;
+      color: #fff;
+     // border: 1px solid white;
+      // font-size: 16px;
+    }
+
+    .tab-strip {
+      opacity: 1;
+    }
+    .tab-strip {
+      opacity: 1;
+      -webkit-animation-name: horizontal-strip-move-animation;
+      -webkit-animation-duration: 2s;
+      animation-name: horizontal-strip-move-animation;
+      animation-duration: 0.2s;
+    }
+  }
+
+  &:hover {
+    > a {
+      color: #fff;
+    }
+  }
+}
+
+.hoverTab {
+  font-size: 13px;
+
+  //padding-top: 2px 5px 2px 5px;
+}
+
+.tab-strip {
+  // width: 40%;
+  width: 2rem;
+  margin-left: 28px;
+  height: 3.5px;
+  background-color: #d8231d;
+  opacity: 0;
+  position: absolute;
+  bottom: 0px;
+}
+.nav-up {
+  float: right;
+  position: relative;
+  margin-left: 10px;
+  content: url(../../assets/images/nav-up/nav-up.png);
+  margin-top: 9px;
+}
+
+.nav-down {
+  float: right;
+  position: relative;
+  margin-left: 10px;
+  content: url(../../assets/images/nav-up/nav-up.png);
+  margin-top: 8px;
+  transform: rotate(180deg);
+}
+
+// .rotateimg180 {
+//   -webkit-transform: rotate(180deg);
+//   -moz-transform: rotate(180deg);
+//   -ms-transform: rotate(180deg);
+//   -o-transform: rotate(180deg);
+//   transform: rotate(180deg);
+// }
+
+// .profile-info {
+//   display: flex;
+//   align-items: center;
+// }
+
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  text-align: left !important;
+  padding-top: 19px !important;
+  overflow: visible !important;
+  color: #a1a9bb;
+}
+
+.navicons {
+  width: 17px;
+  margin-top: -8px;
+  margin-left: -25px;
+}
+.dropdown-content {
+  margin-top: 15px;
+  display: none;
+  position: absolute;
+  background-color: #353843;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  //z-index: 1;
+  min-height: 100px;
+  margin-left: -25px;
+  padding-top: 15px;
+  // padding-bottom: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
+  overflow: visible;
+  //margin-bottom: 15px;
+
+  // padding-left: 15px;
+}
+
+.dropdown-content a {
+  color: #fff;
+  background-color: #353843;
+  padding: 5px 5px;
+  text-decoration: none;
+  display: block;
+  border: 1px solid grey;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  //outline: #707070 solid 1px;
+  // outline-offset: -10px;
+}
+
+.dropdown-content a:hover {
+  background-color: #d8231d;
+  color: white;
+  //content: url(../../assets/images/arrow-up/up.png);
+  //padding: ;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  color: white;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+.imageSpace {
+  padding: 3px;
+}
+
+.home-svg {
+  width: 25px;
+  height: 25px;
+  margin-top: 15px;
+  margin-right: 20px;
+  margin-left: 30px;
+}

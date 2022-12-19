@@ -1,0 +1,22 @@
+
+
+@import "../../stylesheets/robotoFonts";
+.calanderListview-search{
+    margin-top: 15px;
+  margin-left: 33px;
+  margin-bottom: 10px;
+  font-family: $font-name-Roboto-Regular;
+}
+
+
+.ReactTable .rt-thead .rt-th.-cursor-pointer {
+  background-color: #eaedf1;
+  mix-blend-mode: normal;
+  text-align: center;
+  opacity: 1;
+  color: #000;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: $font-name-Roboto-Medium;
+}

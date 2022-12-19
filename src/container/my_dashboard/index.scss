@@ -1,0 +1,90 @@
+// @font-face {
+//   font-family: 'roboto';
+//   src: url(../../assets/roboto/Roboto-Bold.ttf) format("ttf");
+//   font-weight: 700;
+//   font-variant: normal;
+// }
+@import "../../stylesheets/robotoFonts";
+
+.head-mydashboard {
+  margin-top: 10px;
+  margin-left: 47px;
+  //display: flex;
+  /* UI Properties */
+  text-align: left;
+  font-size: 22px;
+  font-family: $font-name-Roboto-Bold;
+  font-weight: 700;
+  font-variant: normal;
+  letter-spacing: 0px;
+  color: #073a81;
+  text-transform: capitalize;
+  opacity: 1;
+}
+
+.depot-chargers-subtext {
+  margin-left: 69.5%;
+  //text-align: left;
+  font-size: 17px;
+  font-family: $font-name-Roboto-Bold;
+  font-weight: 700;
+  font-variant: normal;
+  letter-spacing: 0px;
+  color: #073a81;
+  text-transform: capitalize;
+  opacity: 1;
+}
+
+.depot-chargers-subtext-1 {
+  margin-left: 65.5%;
+  //text-align: left;
+  font-size: 17px;
+  font-family: $font-name-Roboto-Bold;
+  font-weight: 700;
+  font-variant: normal;
+  letter-spacing: 0px;
+  color: #073a81;
+  text-transform: capitalize;
+  opacity: 1;
+}
+// ::-webkit-scrollbar {
+//   //background-color: white;
+//   display: none;
+//   overflow: hidden;
+//   }
+
+// .mydashboard{
+//   -ms-overflow-style: none;
+// }
+// ::-webkit-scrollbar {
+//   display: none;
+// }
+
+.mydashboard {
+  overflow: hidden;
+  overflow-x: hidden;
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: grey #ffffff;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 13px;
+  height: 14px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #8c98b2;
+  border-radius: 10px;
+  border: 3px solid #ffffff;
+}

@@ -1,0 +1,91 @@
+@import "../../stylesheets/robotoFonts";
+.TripMonitoring-text{
+    margin-top: 13px;
+    margin-left: 55px;
+  
+    /* UI Properties */
+    text-align: left;
+    font-family: $font-name-Roboto-Bold;
+    font-size: 22px;
+    font-weight: 700;
+    font-variant: normal;
+    letter-spacing: 0px;
+    color: #073a81;
+    text-transform: capitalize;
+    opacity: 1;
+}
+
+// .TripMonitoring-submenu{
+//     margin-top: 14px;
+//     display: flex;
+// }
+
+// .TripMonitoring-search-div{
+//     margin-top: -20px;
+//     margin-left: 70%;
+//     margin-bottom: 30px;
+// }
+
+// .TripMonitoring-search{
+//     width: 400px;
+//     height: 40px;
+//     margin-bottom: 10px;
+//     border-radius: 5px;
+//     border: 1px solid gray;
+// }
+
+.TripMonitoring-action{
+  color: #da3d48;
+  text-transform: uppercase;
+  opacity: 1;
+  font-weight: 900;
+  font-size: 14px;
+  letter-spacing: 0px;
+  font-family: $font-name-Roboto-Bold;
+  text-decoration: none;
+}
+
+.ReactTable .rt-thead .rt-resizable-header {
+    background-color: #eaedf1;
+    color: #000 !important;
+  }
+  .rt-td {
+    text-align: center;
+    font-size: 13px;
+    font-family: $font-name-Roboto-Regular;
+  }
+  .rt-resizable-header-content {
+    font-size: 14px;
+    font-family: $font-name-Roboto-Medium;
+  }
+  
+  .ReactTable .-pagination .-btn {
+    font-size: 1em;
+  }
+  .ReactTable .rt-tbody {
+    overflow-x: hidden;
+  }
+
+
+  .TripMonitoring-search{
+    width: 400px;
+    height: 35px;
+    margin-left: 50px;
+    margin-top: 10px;
+   // margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+
+// ::-webkit-scrollbar {
+//   width: 20px; /* <-- This sets the thickness of the VERTICAL scrollbar */
+//   height: 20px; /* <-- This sets the thickness of the HORIZONTAL scrollbar */
+// }
+
+
+.records-info-trip-monitoring{
+  font-size: 14px;
+  font-family: $font-name-Roboto-Medium;
+  margin-left: 50px;
+}

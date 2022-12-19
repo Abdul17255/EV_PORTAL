@@ -1,0 +1,27 @@
+@import "../../stylesheets/robotoFonts";
+.footer {
+  margin-top: 35px;
+  display: flex;
+  .footer-left {
+    margin-left: 50px;
+  }
+  .footer-right {
+    margin-left: 1070px;
+    span {
+      top: 1125px;
+      left: 1221px;
+      // width: 184px;
+      // height: 14px;
+      /* UI Properties */
+      text-align: center;
+      font-family: $font-name-Roboto-Regular;
+      font-size: 12px;
+      letter-spacing: 0.24px;
+      color: #353844;
+      opacity: 1;
+    }
+  }
+  .footer-logo {
+    margin-left: -27px;
+  }
+}

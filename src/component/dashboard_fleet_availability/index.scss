@@ -1,0 +1,128 @@
+@import "../../stylesheets/robotoFonts";
+
+// .vehicle-status{
+//     width: 600px;
+// height: 237px;
+// background: transparent linear-gradient(180deg, #FFFFFF 0%, #D0E0FC 100%) 0% 0% no-repeat padding-box;
+// border: 1px solid #DBDEE8;
+// border-radius: 10px;
+// opacity: 1;
+// }
+
+// .vehicle-status-text{
+//     text-align: left;
+// font-size: 16px;
+// font-family: $font-name-Roboto-Medium;
+// letter-spacing: 0px;
+// color: #041F46;
+// opacity: 1;
+// margin-top: 10px;
+// margin-left: 15px;
+// }
+
+// .vehicle-status-button{
+
+//     margin-left: 60%;
+//     margin-top: -30px;
+
+//     .vehicle-status-btn{
+//         height: 30px;
+//         width: 50%;
+//         padding-left: 14px;
+//         background-color: white;
+//         border: 1px solid #000000;
+//         cursor: pointer;
+//         border-radius: 20px;
+//         // text-align: left;
+//         font-size: 9px;
+//         font-weight: 700;
+//         font-variant: normal;
+//         text-align: center;
+//         font-family: $font-name-Roboto-Regular;
+//         letter-spacing: 1px;
+//         color:black;
+//         text-transform: uppercase;
+//         opacity: 1;
+//         // margin-top: -100px;
+//          margin-left: 60px;
+//     }
+
+//     .vehicle-status-button-png{
+//         height: 6px;
+//         padding-left: 2px;
+//         padding-bottom: 1px;
+//     }
+//     }
+
+.fleet-availability {
+  display: flex;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+.fleet-availability-texts {
+  letter-spacing: 0.24px;
+  color: #6e6e6e;
+  text-transform: uppercase;
+  opacity: 1;
+  font-size: 12px;
+  font-family: $font-name-Roboto-Bold;
+  margin-top: 10px;
+  margin-left: -20px;
+}
+
+.fleet-availability-number {
+  letter-spacing: 0px;
+  color: #353639;
+  opacity: 1;
+  font-size: 15px;
+  font-family: $font-name-Roboto-Bold;
+  margin-top: -15px;
+  margin-left: 19px;
+  // gap: 5px;
+}
+
+.perpendicular-line {
+  width: 20%;
+  height: 100%;
+  //margin: auto;
+  margin-left: 5px;
+  margin-top: 60px;
+  //margin-top: 30%;
+  margin-bottom: 0;
+  transform: rotate(90deg);
+  border-color: #dbdee8;
+}
+.fleet-availability-img {
+  margin-left: 20px;
+  width: 30px;
+  height: 30px;
+}
+
+.fleet-availability-imgs {
+  margin-left: 27px;
+  width: 25px;
+  height: 25px;
+  margin-top: 5px;
+}
+
+.fleet-availability-texts-1 {
+  letter-spacing: 0.24px;
+  color: #6e6e6e;
+  text-transform: uppercase;
+  opacity: 1;
+  font-size: 12px;
+  font-family: $font-name-Roboto-Bold;
+  margin-top: 10px;
+  margin-left: 2px;
+}
+
+.fleet-availability-number-1 {
+  letter-spacing: 0px;
+  color: #353639;
+  opacity: 1;
+  font-size: 15px;
+  font-family: $font-name-Roboto-Bold;
+  margin-top: -15px;
+  margin-left: -3px;
+  // gap: 5px;
+}
